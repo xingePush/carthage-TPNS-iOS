@@ -8,11 +8,11 @@
   "tvOS" : [
 
   ],
-  "commitish" : "1.2.1.1",
+  "commitish" : "6686b4cbb4ae6431b9bc1073546f9ea4631d2b43",
   "iOS" : [
     {
       "name" : "TPNS_iOS",
-      "hash" : "7cebe14bbb0bc28bf19454812f4decfeb069e8756a07bdf9c9b7c45301fec977"
+      "hash" : "8b98bde31e845f2b9e4c227ebca8e6186cdf3d5e10b604d2fa374cbcd6d4370a"
     }
   ]
 }
