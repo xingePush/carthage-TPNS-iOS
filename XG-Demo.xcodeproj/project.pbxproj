@@ -34,11 +34,11 @@
 		689C13A61DC34D63001D8E6C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689C139E1DC34CF4001D8E6C /* CoreTelephony.framework */; };
 		841F68D1230655DA0065A603 /* TPNS_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F68CA230655DA0065A603 /* TPNS_iOS.framework */; };
 		841F68D2230655DA0065A603 /* TPNS_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 841F68CA230655DA0065A603 /* TPNS_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		841F68D8230656150065A603 /* XGMTACloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EC86C522D7044A00012D8F /* XGMTACloud.framework */; };
-		841F68D9230656210065A603 /* libXG-SDK-Cloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C204A126213E3A020099EC7F /* libXG-SDK-Cloud.a */; };
-		841F68DB230656440065A603 /* XGPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 689C13961DC34C48001D8E6C /* XGPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		841F68DC2306566D0065A603 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C216B5EC2227D834001D648A /* CoreData.framework */; };
 		841F68DD2306567B0065A603 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6812E5B61E14F4E700389FB9 /* UserNotifications.framework */; };
+		841F6998230BDA730065A603 /* libXG-SDK-Cloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C204A126213E3A020099EC7F /* libXG-SDK-Cloud.a */; };
+		841F6999230BDA920065A603 /* XGMTACloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EC86C522D7044A00012D8F /* XGMTACloud.framework */; };
+		841F699A230BDAAF0065A603 /* XGPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 689C13961DC34C48001D8E6C /* XGPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C204A129213E6D710099EC7F /* libXG-SDK-Cloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C204A128213E6D710099EC7F /* libXG-SDK-Cloud.a */; };
 		C216B5ED2227D834001D648A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C216B5EC2227D834001D648A /* CoreData.framework */; };
 		C24A70FF1F3AB710007F2360 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C24A70FE1F3AB710007F2360 /* NotificationService.m */; };
@@ -182,10 +182,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841F6999230BDA920065A603 /* XGMTACloud.framework in Frameworks */,
+				841F6998230BDA730065A603 /* libXG-SDK-Cloud.a in Frameworks */,
 				841F68DD2306567B0065A603 /* UserNotifications.framework in Frameworks */,
 				841F68DC2306566D0065A603 /* CoreData.framework in Frameworks */,
-				841F68D9230656210065A603 /* libXG-SDK-Cloud.a in Frameworks */,
-				841F68D8230656150065A603 /* XGMTACloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +364,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841F68DB230656440065A603 /* XGPush.h in Headers */,
+				841F699A230BDAAF0065A603 /* XGPush.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

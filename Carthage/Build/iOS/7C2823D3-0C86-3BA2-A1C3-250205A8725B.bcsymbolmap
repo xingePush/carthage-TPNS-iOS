@@ -1,0 +1,2423 @@
+BCSymbolMap Version: 2.0
+Apple LLVM version 9.1.0 (clang-902.0.39.2)
+/Users/admin/Library/Developer/Xcode/DerivedData/XG-Demo-ggwtkadablistbeowxqzkohzxdii/Build/Intermediates.noindex/ArchiveIntermediates/TPNS-iOS/IntermediateBuildFilesPath/XG-Demo.build/Release-iphoneos/TPNS-iOS.build/DerivedSources/TPNS_iOS_vers.c
+/Users/admin/Documents/0816/tpns/TPNS-iOS
+-[XGPushStatMTAConfig init]
+-[XGPushStatMTAConfig getCustomProperty:default:]
+-[XGPushStatMTAConfig setReportStrategy:]
++[XGPushStatMTAConfig getInstance]
+___34+[XGPushStatMTAConfig getInstance]_block_invoke
+-[XGPushStatMTAConfig debugEnable]
+-[XGPushStatMTAConfig setDebugEnable:]
+-[XGPushStatMTAConfig sessionTimeoutSecs]
+-[XGPushStatMTAConfig setSessionTimeoutSecs:]
+-[XGPushStatMTAConfig reportStrategy]
+-[XGPushStatMTAConfig autoTM]
+-[XGPushStatMTAConfig setAutoTM:]
+-[XGPushStatMTAConfig autoTrackPage]
+-[XGPushStatMTAConfig setAutoTrackPage:]
+-[XGPushStatMTAConfig appkey]
+-[XGPushStatMTAConfig setAppkey:]
+-[XGPushStatMTAConfig channel]
+-[XGPushStatMTAConfig setChannel:]
+-[XGPushStatMTAConfig maxStoreEventCount]
+-[XGPushStatMTAConfig setMaxStoreEventCount:]
+-[XGPushStatMTAConfig maxLoadEventCount]
+-[XGPushStatMTAConfig setMaxLoadEventCount:]
+-[XGPushStatMTAConfig minBatchReportCount]
+-[XGPushStatMTAConfig setMinBatchReportCount:]
+-[XGPushStatMTAConfig maxSendRetryCount]
+-[XGPushStatMTAConfig setMaxSendRetryCount:]
+-[XGPushStatMTAConfig sendPeriodMinutes]
+-[XGPushStatMTAConfig setSendPeriodMinutes:]
+-[XGPushStatMTAConfig maxParallelTimingEvents]
+-[XGPushStatMTAConfig setMaxParallelTimingEvents:]
+-[XGPushStatMTAConfig smartReporting]
+-[XGPushStatMTAConfig setSmartReporting:]
+-[XGPushStatMTAConfig maxReportEventLength]
+-[XGPushStatMTAConfig setMaxReportEventLength:]
+-[XGPushStatMTAConfig statEnable]
+-[XGPushStatMTAConfig setStatEnable:]
+-[XGPushStatMTAConfig ifa]
+-[XGPushStatMTAConfig setIfa:]
+-[XGPushStatMTAConfig customerAppVersion]
+-[XGPushStatMTAConfig setCustomerAppVersion:]
+-[XGPushStatMTAConfig customerUserID]
+-[XGPushStatMTAConfig setCustomerUserID:]
+-[XGPushStatMTAConfig maxSessionStatReportCount]
+-[XGPushStatMTAConfig setMaxSessionStatReportCount:]
+-[XGPushStatMTAConfig mid]
+-[XGPushStatMTAConfig setMid:]
+-[XGPushStatMTAConfig guid]
+-[XGPushStatMTAConfig setGuid:]
+-[XGPushStatMTAConfig statReportURL]
+-[XGPushStatMTAConfig setStatReportURL:]
+-[XGPushStatMTAConfig ifHttps]
+-[XGPushStatMTAConfig setIfHttps:]
+-[XGPushStatMTAConfig tcpDomainOrIP]
+-[XGPushStatMTAConfig setTcpDomainOrIP:]
+-[XGPushStatMTAConfig tcpPort]
+-[XGPushStatMTAConfig setTcpPort:]
+-[XGPushStatMTAConfig .cxx_destruct]
+_OBJC_IVAR_$_XGPushStatMTAConfig._reportStrategy
+_getInstance._instance
+_getInstance._onceFlag
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_XGPushStatMTAConfig._debugEnable
+_OBJC_IVAR_$_XGPushStatMTAConfig._sessionTimeoutSecs
+_OBJC_IVAR_$_XGPushStatMTAConfig._autoTM
+_OBJC_IVAR_$_XGPushStatMTAConfig._autoTrackPage
+_OBJC_IVAR_$_XGPushStatMTAConfig._appkey
+_OBJC_IVAR_$_XGPushStatMTAConfig._channel
+_OBJC_IVAR_$_XGPushStatMTAConfig._maxStoreEventCount
+_OBJC_IVAR_$_XGPushStatMTAConfig._maxLoadEventCount
+_OBJC_IVAR_$_XGPushStatMTAConfig._minBatchReportCount
+_OBJC_IVAR_$_XGPushStatMTAConfig._maxSendRetryCount
+_OBJC_IVAR_$_XGPushStatMTAConfig._sendPeriodMinutes
+_OBJC_IVAR_$_XGPushStatMTAConfig._maxParallelTimingEvents
+_OBJC_IVAR_$_XGPushStatMTAConfig._smartReporting
+_OBJC_IVAR_$_XGPushStatMTAConfig._maxReportEventLength
+_OBJC_IVAR_$_XGPushStatMTAConfig._statEnable
+_OBJC_IVAR_$_XGPushStatMTAConfig._ifa
+_OBJC_IVAR_$_XGPushStatMTAConfig._customerAppVersion
+_OBJC_IVAR_$_XGPushStatMTAConfig._customerUserID
+_OBJC_IVAR_$_XGPushStatMTAConfig._maxSessionStatReportCount
+_OBJC_IVAR_$_XGPushStatMTAConfig._mid
+_OBJC_IVAR_$_XGPushStatMTAConfig._guid
+_OBJC_IVAR_$_XGPushStatMTAConfig._statReportURL
+_OBJC_IVAR_$_XGPushStatMTAConfig._ifHttps
+_OBJC_IVAR_$_XGPushStatMTAConfig._tcpDomainOrIP
+_OBJC_IVAR_$_XGPushStatMTAConfig._tcpPort
+-[XGPushStatMTASendItem init]
+-[XGPushStatMTASendItem jsonEvents]
+-[XGPushStatMTASendItem setJsonEvents:]
+-[XGPushStatMTASendItem sendCallback]
+-[XGPushStatMTASendItem setSendCallback:]
+-[XGPushStatMTASendItem .cxx_destruct]
+_OBJC_IVAR_$_XGPushStatMTASendItem._jsonEvents
+_OBJC_IVAR_$_XGPushStatMTASendItem._sendCallback
+-[XGPushStatMTAEvent getType]
+-[XGPushStatMTAEvent encode:]
+-[XGPushStatMTAEvent toJsonString]
+-[XGPushStatMTAEvent sid]
+-[XGPushStatMTAEvent setSid:]
+-[XGPushStatMTAEvent ts]
+-[XGPushStatMTAEvent setTs:]
+-[XGPushStatMTAEvent eventIndex]
+-[XGPushStatMTAEvent setEventIndex:]
+-[XGPushStatMTAEvent h5attr]
+-[XGPushStatMTAEvent setH5attr:]
+-[XGPushStatMTAEvent h5]
+-[XGPushStatMTAEvent setH5:]
+-[XGPushStatMTAEvent cua]
+-[XGPushStatMTAEvent setCua:]
+-[XGPushStatMTAEvent timeStr]
+-[XGPushStatMTAEvent setTimeStr:]
+-[XGPushStatMTAEvent appkey]
+-[XGPushStatMTAEvent setAppkey:]
+-[XGPushStatMTAEvent isRealTime]
+-[XGPushStatMTAEvent setIsRealTime:]
+-[XGPushStatMTAEvent content]
+-[XGPushStatMTAEvent setContent:]
+-[XGPushStatMTAEvent .cxx_destruct]
+-[XGMTAReportMessageEvent getType]
+-[XGMTAReportMessageEvent encode:]
+-[XGMTAReportMessageEvent info]
+-[XGMTAReportMessageEvent setInfo:]
+-[XGMTAReportMessageEvent .cxx_destruct]
+_OBJC_IVAR_$_XGPushStatMTAEvent._sid
+_OBJC_IVAR_$_XGPushStatMTAEvent._ts
+_OBJC_IVAR_$_XGPushStatMTAEvent._eventIndex
+_OBJC_IVAR_$_XGPushStatMTAEvent._h5attr
+_OBJC_IVAR_$_XGPushStatMTAEvent._h5
+_OBJC_IVAR_$_XGPushStatMTAEvent._cua
+_OBJC_IVAR_$_XGPushStatMTAEvent._timeStr
+_OBJC_IVAR_$_XGPushStatMTAEvent._appkey
+_OBJC_IVAR_$_XGPushStatMTAEvent._isRealTime
+_OBJC_IVAR_$_XGPushStatMTAEvent._content
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_XGPushStatMTAEventProtocol
+l_OBJC_LABEL_PROTOCOL_$_XGPushStatMTAEventProtocol
+_OBJC_IVAR_$_XGMTAReportMessageEvent._info
+-[XGPushStatMTAPluginExtStorageInvoker init]
++[XGPushStatMTAPluginExtStorageInvoker getInstance]
+___51+[XGPushStatMTAPluginExtStorageInvoker getInstance]_block_invoke
+-[XGPushStatMTAPluginExtStorageInvoker storeValueKIT:forKey:]
+-[XGPushStatMTAPluginExtStorageInvoker loadValueKIT:]
+_getInstance.instance
+_getInstance.onceToken
+-[XGPushStatMTAEnvManager init]
++[XGPushStatMTAEnvManager getInstance]
+___38+[XGPushStatMTAEnvManager getInstance]_block_invoke
+-[XGPushStatMTAEnvManager MTAEnvServiceDelegate]
+-[XGPushStatMTAEnvManager setMTAEnvServiceDelegate:]
+-[XGPushStatMTAEnvManager .cxx_destruct]
+_OBJC_IVAR_$_XGPushStatMTAEnvManager._MTAEnvServiceDelegate
+-[XGPushStatMTAStoreEvent eventId]
+-[XGPushStatMTAStoreEvent setEventId:]
+-[XGPushStatMTAStoreEvent content]
+-[XGPushStatMTAStoreEvent setContent:]
+-[XGPushStatMTAStoreEvent status]
+-[XGPushStatMTAStoreEvent setStatus:]
+-[XGPushStatMTAStoreEvent sendCount]
+-[XGPushStatMTAStoreEvent setSendCount:]
+-[XGPushStatMTAStoreEvent ts]
+-[XGPushStatMTAStoreEvent setTs:]
+-[XGPushStatMTAStoreEvent .cxx_destruct]
+-[XGPushStatMTADataConfig encodeWithNoContent:]
+-[XGPushStatMTADataConfig decode:]
+-[XGPushStatMTADataConfig type]
+-[XGPushStatMTADataConfig setType:]
+-[XGPushStatMTADataConfig content]
+-[XGPushStatMTADataConfig setContent:]
+-[XGPushStatMTADataConfig md5]
+-[XGPushStatMTADataConfig setMd5:]
+-[XGPushStatMTADataConfig version]
+-[XGPushStatMTADataConfig setVersion:]
+-[XGPushStatMTADataConfig .cxx_destruct]
+-[XGPushStatMTAStore init]
+-[XGPushStatMTAStore dealloc]
+-[XGPushStatMTAStore launch]
+___28-[XGPushStatMTAStore launch]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[XGPushStatMTAStore initDB]
+-[XGPushStatMTAStore getDbPath]
+-[XGPushStatMTAStore getMTAStorePath]
+-[XGPushStatMTAStore getDB]
+-[XGPushStatMTAStore closeDB]
+-[XGPushStatMTAStore deleteDB]
+-[XGPushStatMTAStore updateDatabase:]
+-[XGPushStatMTAStore getMtaOpenUDID]
+_execute_query
+-[XGPushStatMTAStore getStoredEventsNum]
+-[XGPushStatMTAStore deleteEvents:callback:]
+___44-[XGPushStatMTAStore deleteEvents:callback:]_block_invoke
+___copy_helper_block_.203
+___destroy_helper_block_.204
+-[XGPushStatMTAStore updateSendFailedEvents:]
+___45-[XGPushStatMTAStore updateSendFailedEvents:]_block_invoke
+___copy_helper_block_.212
+___destroy_helper_block_.213
+-[XGPushStatMTAStore updateEvents:status:]
+___42-[XGPushStatMTAStore updateEvents:status:]_block_invoke
+___copy_helper_block_.216
+___destroy_helper_block_.217
+-[XGPushStatMTAStore storedEventCount]
+-[XGPushStatMTAStore loadMemCachedEvents:]
+-[XGPushStatMTAStore loadCachedEvents:]
+_execute_update
+-[XGPushStatMTAStore storeConfig:]
+___34-[XGPushStatMTAStore storeConfig:]_block_invoke
+___copy_helper_block_.245
+___destroy_helper_block_.246
+-[XGPushStatMTAStore loadConfig:]
+-[XGPushStatMTAStore storeEvent:hasTrySent:CB:]
+___47-[XGPushStatMTAStore storeEvent:hasTrySent:CB:]_block_invoke
+___copy_helper_block_.273
+___destroy_helper_block_.274
+-[XGPushStatMTAStore sendMemCachedEvents:]
+___42-[XGPushStatMTAStore sendMemCachedEvents:]_block_invoke
+___42-[XGPushStatMTAStore sendMemCachedEvents:]_block_invoke_2
+___copy_helper_block_.291
+___destroy_helper_block_.292
+___copy_helper_block_.300
+___destroy_helper_block_.301
+-[XGPushStatMTAStore sendCachedEvents:]
+___39-[XGPushStatMTAStore sendCachedEvents:]_block_invoke
+___39-[XGPushStatMTAStore sendCachedEvents:]_block_invoke_2
+___39-[XGPushStatMTAStore sendCachedEvents:]_block_invoke_3
+___copy_helper_block_.317
+___destroy_helper_block_.318
+___copy_helper_block_.322
+___destroy_helper_block_.323
+___copy_helper_block_.325
+___destroy_helper_block_.326
++[XGPushStatMTAStore getInstance]
+___33+[XGPushStatMTAStore getInstance]_block_invoke
+-[XGPushStatMTAStore cacheEventLock]
+-[XGPushStatMTAStore setCacheEventLock:]
+-[XGPushStatMTAStore isSendingCacheEvent]
+-[XGPushStatMTAStore setIsSendingCacheEvent:]
+-[XGPushStatMTAStore cacheMemEventLock]
+-[XGPushStatMTAStore setCacheMemEventLock:]
+-[XGPushStatMTAStore isSendingMemCacheEvent]
+-[XGPushStatMTAStore setIsSendingMemCacheEvent:]
+-[XGPushStatMTAStore cachedEventsArr]
+-[XGPushStatMTAStore setCachedEventsArr:]
+-[XGPushStatMTAStore mtaOpenUdid]
+-[XGPushStatMTAStore setMtaOpenUdid:]
+-[XGPushStatMTAStore mtaOpenUdidLock]
+-[XGPushStatMTAStore setMtaOpenUdidLock:]
+-[XGPushStatMTAStore .cxx_destruct]
+_query_callback
+_OBJC_IVAR_$_XGPushStatMTAStoreEvent._eventId
+_OBJC_IVAR_$_XGPushStatMTAStoreEvent._content
+_OBJC_IVAR_$_XGPushStatMTAStoreEvent._status
+_OBJC_IVAR_$_XGPushStatMTAStoreEvent._sendCount
+_OBJC_IVAR_$_XGPushStatMTAStoreEvent._ts
+_OBJC_IVAR_$_XGPushStatMTADataConfig._type
+_OBJC_IVAR_$_XGPushStatMTADataConfig._content
+_OBJC_IVAR_$_XGPushStatMTADataConfig._md5
+_OBJC_IVAR_$_XGPushStatMTADataConfig._version
+_OBJC_IVAR_$_XGPushStatMTAStore.cacheEventLock
+___block_descriptor_tmp.205
+___block_descriptor_tmp.214
+___block_descriptor_tmp.218
+___block_descriptor_tmp.247
+___block_descriptor_tmp.275
+___block_descriptor_tmp.294
+___block_descriptor_tmp.302
+___block_descriptor_tmp.319
+___block_descriptor_tmp.324
+___block_descriptor_tmp.327
+___block_descriptor_tmp.328
+_OBJC_IVAR_$_XGPushStatMTAStore._isSendingCacheEvent
+_OBJC_IVAR_$_XGPushStatMTAStore._cacheMemEventLock
+_OBJC_IVAR_$_XGPushStatMTAStore._isSendingMemCacheEvent
+_OBJC_IVAR_$_XGPushStatMTAStore._cachedEventsArr
+_OBJC_IVAR_$_XGPushStatMTAStore._mtaOpenUdid
+_OBJC_IVAR_$_XGPushStatMTAStore._mtaOpenUdidLock
+_execute_prepared_config_stmt.sqlite_stmt
+_execute_prepared_events_stmt.sqlite_stmt
+-[XGPushStatMTASocket init]
++[XGPushStatMTASocket getInstance]
+___34+[XGPushStatMTASocket getInstance]_block_invoke
+-[XGPushStatMTASocket asyncInQueue:]
+___36-[XGPushStatMTASocket asyncInQueue:]_block_invoke
+-[XGPushStatMTASocket sendData]
+___31-[XGPushStatMTASocket sendData]_block_invoke
+___copy_helper_block_.87
+___destroy_helper_block_.88
+-[XGPushStatMTASocket send:]
+___28-[XGPushStatMTASocket send:]_block_invoke
+___copy_helper_block_.94
+___destroy_helper_block_.95
+-[XGPushStatMTASocket sendEvent:]
+___33-[XGPushStatMTASocket sendEvent:]_block_invoke
+___copy_helper_block_.99
+___destroy_helper_block_.100
+-[XGPushStatMTASocket serviceDidStart:]
+-[XGPushStatMTASocket serviceIsConnecting:]
+-[XGPushStatMTASocket serviceDidCanceled:]
+-[XGPushStatMTASocket serviceDidCompeleted:]
+-[XGPushStatMTASocket serviceDidFailed:withError:]
+-[XGPushStatMTASocket handleSendError]
+___38-[XGPushStatMTASocket handleSendError]_block_invoke
+___38-[XGPushStatMTASocket handleSendError]_block_invoke_2
+___copy_helper_block_.106
+___destroy_helper_block_.107
+___copy_helper_block_.124
+___destroy_helper_block_.125
+-[XGPushStatMTASocket handleReturnData:]
+-[XGPushStatMTASocket sendItemQueue]
+-[XGPushStatMTASocket setSendItemQueue:]
+-[XGPushStatMTASocket sendingItem]
+-[XGPushStatMTASocket setSendingItem:]
+-[XGPushStatMTASocket asyncSocketQueue]
+-[XGPushStatMTASocket setAsyncSocketQueue:]
+-[XGPushStatMTASocket taskQueue]
+-[XGPushStatMTASocket setTaskQueue:]
+-[XGPushStatMTASocket .cxx_destruct]
+_OBJC_IVAR_$_XGPushStatMTASocket.mtaHTTPService
+___block_descriptor_tmp.22
+___block_descriptor_tmp.89
+___block_descriptor_tmp.96
+___block_descriptor_tmp.101
+___block_descriptor_tmp.108
+___block_descriptor_tmp.126
+_OBJC_IVAR_$_XGPushStatMTASocket._sendItemQueue
+_OBJC_IVAR_$_XGPushStatMTASocket._sendingItem
+_OBJC_IVAR_$_XGPushStatMTASocket._asyncSocketQueue
+_OBJC_IVAR_$_XGPushStatMTASocket._taskQueue
+l_OBJC_PROTOCOL_$_XGPushStatMTAHTTPServiceDelegate
+l_OBJC_LABEL_PROTOCOL_$_XGPushStatMTAHTTPServiceDelegate
+_reportOneEvent
+-[XGPushStatMTA init]
+___21-[XGPushStatMTA init]_block_invoke
+-[XGPushStatMTA dealloc]
+-[XGPushStatMTA getTaskQueue]
++[XGPushStatMTA getInstance]
+___28+[XGPushStatMTA getInstance]_block_invoke
++[XGPushStatMTA allocWithZone:]
+-[XGPushStatMTA copyWithZone:]
++[XGPushStatMTA startWithAppkey:]
++[XGPushStatMTA startWithAppkey:checkedSdkVersion:]
++[XGPushStatMTA commitCachedStats:]
++[XGPushStatMTA reportMessageInfo:]
++[XGPushStatMTA sendEventReplaceBlock:withCachedEvent:]
+___55+[XGPushStatMTA sendEventReplaceBlock:withCachedEvent:]_block_invoke
+___55+[XGPushStatMTA sendEventReplaceBlock:withCachedEvent:]_block_invoke_2
+___55+[XGPushStatMTA sendEventReplaceBlock:withCachedEvent:]_block_invoke_3
+-[XGPushStatMTA keyForKeyChain]
+-[XGPushStatMTA setKeyForKeyChain:]
+-[XGPushStatMTA mtaCurrentPage]
+-[XGPushStatMTA setMtaCurrentPage:]
+-[XGPushStatMTA lastPage]
+-[XGPushStatMTA setLastPage:]
+-[XGPushStatMTA .cxx_destruct]
+_getCacehdEvents
+___getCacehdEvents_block_invoke
+___reportOneEvent_block_invoke
+___reportOneEvent_block_invoke_2
+___reportOneEvent_block_invoke_3
+___reportOneEvent_block_invoke_4
+___reportOneEvent_block_invoke_5
+___reportOneEvent_block_invoke_6
+___reportOneEvent_block_invoke_7
+___copy_helper_block_.194
+___destroy_helper_block_.195
+_cachedEvents
+_instance
+_sessionStatReportCount
+_OBJC_IVAR_$_XGPushStatMTA.task_queue
+___block_descriptor_tmp.38
+___block_literal_global.39
+___block_descriptor_tmp.76
+___block_literal_global.77
+___block_descriptor_tmp.83
+___block_literal_global.84
+___block_descriptor_tmp.86
+_OBJC_IVAR_$_XGPushStatMTA._keyForKeyChain
+_OBJC_IVAR_$_XGPushStatMTA._mtaCurrentPage
+_OBJC_IVAR_$_XGPushStatMTA._lastPage
+_getCacehdEvents.onceToken
+___block_descriptor_tmp.131
+___block_literal_global.132
+___block_descriptor_tmp.149
+___block_literal_global.150
+___block_descriptor_tmp.158
+___block_literal_global.159
+___block_descriptor_tmp.160
+___block_literal_global.161
+___block_descriptor_tmp.162
+___block_literal_global.163
+___block_descriptor_tmp.175
+___block_literal_global.176
+___block_descriptor_tmp.177
+___block_literal_global.178
+___block_descriptor_tmp.196
++[XGPushStatMTAEnv getInstance]
+___31+[XGPushStatMTAEnv getInstance]_block_invoke
+-[XGPushStatMTAEnv platform]
+-[XGPushStatMTAEnv setPlatform:]
+-[XGPushStatMTAEnv os_version]
+-[XGPushStatMTAEnv setOs_version:]
+-[XGPushStatMTAEnv language]
+-[XGPushStatMTAEnv setLanguage:]
+-[XGPushStatMTAEnv resolution]
+-[XGPushStatMTAEnv setResolution:]
+-[XGPushStatMTAEnv timezone]
+-[XGPushStatMTAEnv setTimezone:]
+-[XGPushStatMTAEnv app_version]
+-[XGPushStatMTAEnv setApp_version:]
+-[XGPushStatMTAEnv sdk_version]
+-[XGPushStatMTAEnv setSdk_version:]
+-[XGPushStatMTAEnv devicename]
+-[XGPushStatMTAEnv setDevicename:]
+-[XGPushStatMTAEnv modulename]
+-[XGPushStatMTAEnv setModulename:]
+-[XGPushStatMTAEnv ifv]
+-[XGPushStatMTAEnv setIfv:]
+-[XGPushStatMTAEnv wf]
+-[XGPushStatMTAEnv setWf:]
+-[XGPushStatMTAEnv .cxx_destruct]
++[XGPushStatMTAEnvHelper load]
+-[XGPushStatMTAEnvHelper checkFirstUse]
+-[XGPushStatMTAEnvHelper getPlatformSTD]
+-[XGPushStatMTAEnvHelper getOSVersionSTD]
+-[XGPushStatMTAEnvHelper getLanguageSTD]
+-[XGPushStatMTAEnvHelper getResolutionSTD]
+-[XGPushStatMTAEnvHelper getTimeZoneSTD]
+-[XGPushStatMTAEnvHelper getAppVersionSTD]
+-[XGPushStatMTAEnvHelper getSdkVersionSTD]
+-[XGPushStatMTAEnvHelper getDeviceNameSTD]
+-[XGPushStatMTAEnvHelper getModuleNameSTD]
+-[XGPushStatMTAEnvHelper getIfvSTD]
+-[XGPushStatMTAEnvHelper getBootTimeSTD]
++[XGPushStatMTAEnvHelper getInstance]
+___37+[XGPushStatMTAEnvHelper getInstance]_block_invoke
+-[XGPushStatMTAEnvHelper init]
+-[XGPushStatMTAEnvHelper getEnv]
++[XGPushStatMTAEnvHelper getBootTime]
+-[XGPushStatMTAEnvHelper isUsed]
+-[XGPushStatMTAEnvHelper setIsUsed:]
+-[XGPushStatMTAEnvHelper .cxx_destruct]
+_OBJC_IVAR_$_XGPushStatMTAEnv._platform
+_OBJC_IVAR_$_XGPushStatMTAEnv._os_version
+_OBJC_IVAR_$_XGPushStatMTAEnv._language
+_OBJC_IVAR_$_XGPushStatMTAEnv._resolution
+_OBJC_IVAR_$_XGPushStatMTAEnv._timezone
+_OBJC_IVAR_$_XGPushStatMTAEnv._app_version
+_OBJC_IVAR_$_XGPushStatMTAEnv._sdk_version
+_OBJC_IVAR_$_XGPushStatMTAEnv._devicename
+_OBJC_IVAR_$_XGPushStatMTAEnv._modulename
+_OBJC_IVAR_$_XGPushStatMTAEnv._ifv
+_OBJC_IVAR_$_XGPushStatMTAEnv._wf
+_getInstance.instance.87
+_getInstance.onceToken.88
+___block_literal_global.90
+_OBJC_IVAR_$_XGPushStatMTAEnvHelper.isUsed
+l_OBJC_PROTOCOL_$_XGPushStatMTAEnvServiceProtocol
+l_OBJC_LABEL_PROTOCOL_$_XGPushStatMTAEnvServiceProtocol
++[XGPushStatMTAOnlineConfigManager getInstance]
+___47+[XGPushStatMTAOnlineConfigManager getInstance]_block_invoke
+-[XGPushStatMTAOnlineConfigManager MTAOnlineConfigServiceDelegate]
+-[XGPushStatMTAOnlineConfigManager setMTAOnlineConfigServiceDelegate:]
+-[XGPushStatMTAOnlineConfigManager .cxx_destruct]
+_OBJC_IVAR_$_XGPushStatMTAOnlineConfigManager._MTAOnlineConfigServiceDelegate
++[XGPushStatMTAReachability reachabilityWithHostName:]
++[XGPushStatMTAReachability reachabilityWithAddress:]
++[XGPushStatMTAReachability reachabilityForInternetConnection]
+-[XGPushStatMTAReachability startNotifier]
+_ReachabilityCallback
+-[XGPushStatMTAReachability stopNotifier]
+-[XGPushStatMTAReachability dealloc]
+-[XGPushStatMTAReachability networkStatusForFlags:]
+-[XGPushStatMTAReachability connectionRequired]
+-[XGPushStatMTAReachability currentReachabilityStatus]
+_OBJC_IVAR_$_XGPushStatMTAReachability._reachabilityRef
++[XGPushStatMTAHelper ChiperRC4:]
++[XGPushStatMTAHelper GZip:Out:]
++[XGPushStatMTAHelper GUnzip:Out:]
++[XGPushStatMTAHelper md5encrypt:]
+-[XGPushStatMTAHelper init]
++[XGPushStatMTAHelper getInstance]
+___34+[XGPushStatMTAHelper getInstance]_block_invoke
+-[XGPushStatMTAHelper checkMTAEnable]
+-[XGPushStatMTAHelper getJson:]
++[XGPushStatMTAHelper getCTTelephonyNetworkInfo]
+___48+[XGPushStatMTAHelper getCTTelephonyNetworkInfo]_block_invoke
+-[XGPushStatMTAHelper getNetworkType]
+-[XGPushStatMTAHelper getSDKVersion]
+-[XGPushStatMTAHelper MTAEnableFlag]
+-[XGPushStatMTAHelper setMTAEnableFlag:]
+-[XGPushStatMTAHelper reportNewCrashReport]
+-[XGPushStatMTAHelper setReportNewCrashReport:]
+-[XGPushStatMTAHelper instantEventList]
+-[XGPushStatMTAHelper setInstantEventList:]
+-[XGPushStatMTAHelper ignoreEventList]
+-[XGPushStatMTAHelper setIgnoreEventList:]
+-[XGPushStatMTAHelper openID]
+-[XGPushStatMTAHelper setOpenID:]
+-[XGPushStatMTAHelper .cxx_destruct]
+_getCTTelephonyNetworkInfo._instance
+_getCTTelephonyNetworkInfo._onceFlag
+___block_descriptor_tmp.53
+___block_literal_global.54
+_OBJC_IVAR_$_XGPushStatMTAHelper._MTAEnableFlag
+_OBJC_IVAR_$_XGPushStatMTAHelper._reportNewCrashReport
+_OBJC_IVAR_$_XGPushStatMTAHelper._instantEventList
+_OBJC_IVAR_$_XGPushStatMTAHelper._ignoreEventList
+_OBJC_IVAR_$_XGPushStatMTAHelper._openID
++[XGPushStatMTA(Plugin) getBundleID]
++[XGPushStatMTA(Plugin) getIDFV]
++[XGPushStatMTA(Plugin) getMTAConfigIDFA]
++[XGPushStatMTA(Plugin) getAppKey]
++[XGPushStatMTA(Plugin) getAppVersion]
++[XGPushStatMTA(Plugin) getNetworkType]
++[XGPushStatMTA(Plugin) getMTAVersion]
+l_OBJC_PROTOCOL_$_XGPushStatMTAMainServiceDelegate
+l_OBJC_LABEL_PROTOCOL_$_XGPushStatMTAMainServiceDelegate
+-[NSMutableArray(MTAQueue) XGPushStatmtaDequeue]
+-[NSMutableArray(MTAQueue) XGPushStatmtaEnqueue:]
++[XGPushStatMTAHTTPService shareService]
+___40+[XGPushStatMTAHTTPService shareService]_block_invoke
+-[XGPushStatMTAHTTPService startService]
+-[XGPushStatMTAHTTPService stopService]
+-[XGPushStatMTAHTTPService zipAndRC4Data:]
+-[XGPushStatMTAHTTPService URLSession:didBecomeInvalidWithError:]
+-[XGPushStatMTAHTTPService URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[XGPushStatMTAHTTPService URLSession:task:didCompleteWithError:]
+-[XGPushStatMTAHTTPService URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[XGPushStatMTAHTTPService URLSession:dataTask:didReceiveData:]
+-[XGPushStatMTAHTTPService URLSession:dataTask:willCacheResponse:completionHandler:]
+-[XGPushStatMTAHTTPService delegate]
+-[XGPushStatMTAHTTPService setDelegate:]
+-[XGPushStatMTAHTTPService data]
+-[XGPushStatMTAHTTPService setData:]
+-[XGPushStatMTAHTTPService .cxx_destruct]
+_shareService.mtaHTTPService
+_shareService.onceToken
+_OBJC_IVAR_$_XGPushStatMTAHTTPService._delegate
+_OBJC_IVAR_$_XGPushStatMTAHTTPService._data
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionDataDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDataDelegate
++[XGKeyChain getKeychainQuery:]
++[XGKeyChain save:data:]
++[XGKeyChain load:]
++[XGKeyChain delete:]
+-[XGMQTTSSLSecurityPolicyTransport init]
+-[XGMQTTSSLSecurityPolicyTransport open]
+-[XGMQTTSSLSecurityPolicyTransport state]
+-[XGMQTTSSLSecurityPolicyTransport setState:]
+-[XGMQTTSSLSecurityPolicyTransport delegate]
+-[XGMQTTSSLSecurityPolicyTransport setDelegate:]
+-[XGMQTTSSLSecurityPolicyTransport securityPolicy]
+-[XGMQTTSSLSecurityPolicyTransport setSecurityPolicy:]
+-[XGMQTTSSLSecurityPolicyTransport encoder]
+-[XGMQTTSSLSecurityPolicyTransport setEncoder:]
+-[XGMQTTSSLSecurityPolicyTransport decoder]
+-[XGMQTTSSLSecurityPolicyTransport setDecoder:]
+-[XGMQTTSSLSecurityPolicyTransport .cxx_destruct]
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyTransport.state
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyTransport.delegate
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyTransport._securityPolicy
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyTransport._encoder
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyTransport._decoder
++[XGMQTTMessage connectMessageWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetain:protocolLevel:sessionExpiryInterval:authMethod:authData:requestProblemInformation:willDelayInterval:requestResponseInformation:receiveMaximum:topicAliasMaximum:userProperty:maximumPacketSize:]
++[XGMQTTMessage pingreqMessage]
++[XGMQTTMessage disconnectMessage:returnCode:sessionExpiryInterval:reasonString:userProperty:]
++[XGMQTTMessage subscribeMessageWithMessageId:topics:protocolLevel:subscriptionIdentifier:]
++[XGMQTTMessage unsubscribeMessageWithMessageId:topics:protocolLevel:]
++[XGMQTTMessage publishMessageWithData:onTopic:qos:msgId:retainFlag:dupFlag:protocolLevel:payloadFormatIndicator:publicationExpiryInterval:topicAlias:responseTopic:correlationData:userProperty:contentType:]
++[XGMQTTMessage pubackMessageWithMessageId:protocolLevel:returnCode:reasonString:userProperty:]
++[XGMQTTMessage pubrecMessageWithMessageId:protocolLevel:returnCode:reasonString:userProperty:]
++[XGMQTTMessage pubrelMessageWithMessageId:protocolLevel:returnCode:reasonString:userProperty:]
++[XGMQTTMessage pubcompMessageWithMessageId:protocolLevel:returnCode:reasonString:userProperty:]
+-[XGMQTTMessage init]
+-[XGMQTTMessage initWithType:]
+-[XGMQTTMessage initWithType:data:]
+-[XGMQTTMessage initWithType:qos:data:]
+-[XGMQTTMessage initWithType:qos:retainFlag:dupFlag:data:]
+-[XGMQTTMessage wireFormat]
++[XGMQTTMessage messageFromData:protocolLevel:]
+-[XGMQTTMessage type]
+-[XGMQTTMessage setType:]
+-[XGMQTTMessage qos]
+-[XGMQTTMessage setQos:]
+-[XGMQTTMessage retainFlag]
+-[XGMQTTMessage setRetainFlag:]
+-[XGMQTTMessage dupFlag]
+-[XGMQTTMessage setDupFlag:]
+-[XGMQTTMessage mid]
+-[XGMQTTMessage setMid:]
+-[XGMQTTMessage data]
+-[XGMQTTMessage setData:]
+-[XGMQTTMessage returnCode]
+-[XGMQTTMessage setReturnCode:]
+-[XGMQTTMessage connectAcknowledgeFlags]
+-[XGMQTTMessage setConnectAcknowledgeFlags:]
+-[XGMQTTMessage properties]
+-[XGMQTTMessage setProperties:]
+-[XGMQTTMessage .cxx_destruct]
+-[NSMutableData(MQTT) appendByte:]
+-[NSMutableData(MQTT) appendUInt16BigEndian:]
+-[NSMutableData(MQTT) appendUInt32BigEndian:]
+-[NSMutableData(MQTT) appendVariableLength:]
+-[NSMutableData(MQTT) appendMQTTString:]
+-[NSMutableData(MQTT) appendBinaryData:]
+_OBJC_IVAR_$_XGMQTTMessage._type
+_OBJC_IVAR_$_XGMQTTMessage._qos
+_OBJC_IVAR_$_XGMQTTMessage._retainFlag
+_OBJC_IVAR_$_XGMQTTMessage._dupFlag
+_OBJC_IVAR_$_XGMQTTMessage._mid
+_OBJC_IVAR_$_XGMQTTMessage._data
+_OBJC_IVAR_$_XGMQTTMessage._returnCode
+_OBJC_IVAR_$_XGMQTTMessage._connectAcknowledgeFlags
+_OBJC_IVAR_$_XGMQTTMessage._properties
+-[XGTPNsTokenTagSocket handleMessage:onTopic:retained:]
+___55-[XGTPNsTokenTagSocket handleMessage:onTopic:retained:]_block_invoke
+___55-[XGTPNsTokenTagSocket handleMessage:onTopic:retained:]_block_invoke_2
+-[XGTPNsTokenTagSocket sessionManager:didReceiveMessage:onTopic:retained:]
+-[XGTPNsTokenTagSocket messageDelivered:]
+-[XGTPNsTokenTagSocket sessionManager:didDeliverMessage:]
+-[XGTPNsTokenTagSocket sessionManager:didChangeState:]
+-[XGTPNsTokenTagSocket tag]
+-[XGTPNsTokenTagSocket setTag:]
+-[XGTPNsTokenTagSocket flag]
+-[XGTPNsTokenTagSocket setFlag:]
+-[XGTPNsTokenTagSocket .cxx_destruct]
+-[XGTPNsTokenTagEvent tpnsRequestParams]
+-[XGTPNsTokenTagEvent initWithParameter:tpnsType:completionHandler:]
+-[XGTPNsTokenTagEvent send]
+-[XGTPNsTokenTagEvent observeValueForKeyPath:ofObject:change:context:]
+___block_descriptor_tmp.43
+_OBJC_IVAR_$_XGTPNsTokenTagSocket._tag
+_OBJC_IVAR_$_XGTPNsTokenTagSocket._flag
+-[XGMQTTCFSocketTransport init]
+-[XGMQTTCFSocketTransport open]
+-[XGMQTTCFSocketTransport close]
+-[XGMQTTCFSocketTransport send:]
+-[XGMQTTCFSocketTransport decoder:didReceiveMessage:]
+-[XGMQTTCFSocketTransport decoder:didFailWithError:]
+-[XGMQTTCFSocketTransport encoder:didFailWithError:]
+-[XGMQTTCFSocketTransport decoderdidClose:]
+-[XGMQTTCFSocketTransport encoderdidClose:]
+-[XGMQTTCFSocketTransport decoderDidOpen:]
+-[XGMQTTCFSocketTransport encoderDidOpen:]
++[XGMQTTCFSocketTransport clientCertsFromP12:passphrase:]
+-[XGMQTTCFSocketTransport state]
+-[XGMQTTCFSocketTransport setState:]
+-[XGMQTTCFSocketTransport delegate]
+-[XGMQTTCFSocketTransport setDelegate:]
+-[XGMQTTCFSocketTransport runLoop]
+-[XGMQTTCFSocketTransport setRunLoop:]
+-[XGMQTTCFSocketTransport runLoopMode]
+-[XGMQTTCFSocketTransport setRunLoopMode:]
+-[XGMQTTCFSocketTransport tls]
+-[XGMQTTCFSocketTransport setTls:]
+-[XGMQTTCFSocketTransport voip]
+-[XGMQTTCFSocketTransport setVoip:]
+-[XGMQTTCFSocketTransport certificates]
+-[XGMQTTCFSocketTransport setCertificates:]
+-[XGMQTTCFSocketTransport encoder]
+-[XGMQTTCFSocketTransport setEncoder:]
+-[XGMQTTCFSocketTransport decoder]
+-[XGMQTTCFSocketTransport setDecoder:]
+-[XGMQTTCFSocketTransport .cxx_destruct]
+_OBJC_IVAR_$_XGMQTTCFSocketTransport.state
+_OBJC_IVAR_$_XGMQTTCFSocketTransport.delegate
+_OBJC_IVAR_$_XGMQTTCFSocketTransport.runLoop
+_OBJC_IVAR_$_XGMQTTCFSocketTransport.runLoopMode
+_OBJC_IVAR_$_XGMQTTCFSocketTransport._tls
+_OBJC_IVAR_$_XGMQTTCFSocketTransport._voip
+_OBJC_IVAR_$_XGMQTTCFSocketTransport._certificates
+_OBJC_IVAR_$_XGMQTTCFSocketTransport._encoder
+_OBJC_IVAR_$_XGMQTTCFSocketTransport._decoder
+l_OBJC_PROTOCOL_$_XGMQTTTransport
+l_OBJC_LABEL_PROTOCOL_$_XGMQTTTransport
+l_OBJC_PROTOCOL_$_XGMQTTCFSocketDecoderDelegate
+l_OBJC_LABEL_PROTOCOL_$_XGMQTTCFSocketDecoderDelegate
+l_OBJC_PROTOCOL_$_XGMQTTCFSocketEncoderDelegate
+l_OBJC_LABEL_PROTOCOL_$_XGMQTTCFSocketEncoderDelegate
+-[XGMQTTSession setCertificates:]
+-[XGMQTTSession init]
+-[XGMQTTSession host]
+-[XGMQTTSession port]
+-[XGMQTTSession setClientId:]
+-[XGMQTTSession setRunLoop:]
+-[XGMQTTSession setRunLoopMode:]
+-[XGMQTTSession subscribeToTopic:atLevel:]
+-[XGMQTTSession subscribeToTopic:atLevel:subscribeHandler:]
+-[XGMQTTSession subscribeToTopics:]
+-[XGMQTTSession checkTopicFilters:]
+-[XGMQTTSession subscribeToTopics:subscribeHandler:]
+-[XGMQTTSession unsubscribeTopic:]
+-[XGMQTTSession unsubscribeTopic:unsubscribeHandler:]
+-[XGMQTTSession unsubscribeTopics:]
+-[XGMQTTSession unsubscribeTopics:unsubscribeHandler:]
+-[XGMQTTSession publishData:onTopic:retain:qos:]
+-[XGMQTTSession publishData:onTopic:retain:qos:publishHandler:]
+-[XGMQTTSession close]
+-[XGMQTTSession closeWithDisconnectHandler:]
+-[XGMQTTSession closeWithReturnCode:sessionExpiryInterval:reasonString:userProperty:disconnectHandler:]
+-[XGMQTTSession disconnect]
+-[XGMQTTSession disconnectWithReturnCode:sessionExpiryInterval:reasonString:userProperty:]
+-[XGMQTTSession closeInternal]
+-[XGMQTTSession keepAlive:]
+-[XGMQTTSession checkDup:]
+-[XGMQTTSession checkTxFlows]
+-[XGMQTTSession decoder:handleEvent:error:]
+-[XGMQTTSession decoder:didReceiveMessage:]
+-[XGMQTTSession handlePublish:]
+-[XGMQTTSession handlePuback:]
+-[XGMQTTSession handleSuback:]
+-[XGMQTTSession handleUnsuback:]
+-[XGMQTTSession handlePubrec:]
+-[XGMQTTSession handlePubrel:]
+-[XGMQTTSession handlePubcomp:]
+-[XGMQTTSession connectionError:]
+-[XGMQTTSession protocolError:]
+-[XGMQTTSession error:error:]
+-[XGMQTTSession nextMsgId]
+-[XGMQTTSession tell]
+-[XGMQTTSession onConnect:error:]
+-[XGMQTTSession onConnectExecute:]
+-[XGMQTTSession onDisconnect:error:]
+-[XGMQTTSession onDisconnectExecute:]
+-[XGMQTTSession onSubscribe:error:gQoss:]
+-[XGMQTTSession onSubscribeExecute:]
+-[XGMQTTSession onUnsubscribe:error:]
+-[XGMQTTSession onUnsubscribeExecute:]
+-[XGMQTTSession onPublish:error:]
+-[XGMQTTSession onPublishExecute:]
+-[XGMQTTSession connect]
+-[XGMQTTSession connectWithConnectHandler:]
+-[XGMQTTSession encode:]
+-[XGMQTTSession mqttTransport:didReceiveMessage:]
+-[XGMQTTSession mqttTransportDidClose:]
+-[XGMQTTSession mqttTransportDidOpen:]
+-[XGMQTTSession mqttTransport:didFailWithError:]
+-[XGMQTTSession certificates]
+-[XGMQTTSession delegate]
+-[XGMQTTSession setDelegate:]
+-[XGMQTTSession persistence]
+-[XGMQTTSession setPersistence:]
+-[XGMQTTSession connectHandler]
+-[XGMQTTSession setConnectHandler:]
+-[XGMQTTSession connectionHandler]
+-[XGMQTTSession setConnectionHandler:]
+-[XGMQTTSession messageHandler]
+-[XGMQTTSession setMessageHandler:]
+-[XGMQTTSession status]
+-[XGMQTTSession setStatus:]
+-[XGMQTTSession sessionPresent]
+-[XGMQTTSession setSessionPresent:]
+-[XGMQTTSession clientId]
+-[XGMQTTSession userName]
+-[XGMQTTSession setUserName:]
+-[XGMQTTSession password]
+-[XGMQTTSession setPassword:]
+-[XGMQTTSession keepAliveInterval]
+-[XGMQTTSession setKeepAliveInterval:]
+-[XGMQTTSession serverKeepAlive]
+-[XGMQTTSession setServerKeepAlive:]
+-[XGMQTTSession effectiveKeepAlive]
+-[XGMQTTSession setEffectiveKeepAlive:]
+-[XGMQTTSession dupTimeout]
+-[XGMQTTSession setDupTimeout:]
+-[XGMQTTSession cleanSessionFlag]
+-[XGMQTTSession setCleanSessionFlag:]
+-[XGMQTTSession willFlag]
+-[XGMQTTSession setWillFlag:]
+-[XGMQTTSession willTopic]
+-[XGMQTTSession setWillTopic:]
+-[XGMQTTSession willMsg]
+-[XGMQTTSession setWillMsg:]
+-[XGMQTTSession willQoS]
+-[XGMQTTSession setWillQoS:]
+-[XGMQTTSession willRetainFlag]
+-[XGMQTTSession setWillRetainFlag:]
+-[XGMQTTSession protocolLevel]
+-[XGMQTTSession setProtocolLevel:]
+-[XGMQTTSession sessionExpiryInterval]
+-[XGMQTTSession setSessionExpiryInterval:]
+-[XGMQTTSession authMethod]
+-[XGMQTTSession setAuthMethod:]
+-[XGMQTTSession authData]
+-[XGMQTTSession setAuthData:]
+-[XGMQTTSession requestProblemInformation]
+-[XGMQTTSession setRequestProblemInformation:]
+-[XGMQTTSession willDelayInterval]
+-[XGMQTTSession setWillDelayInterval:]
+-[XGMQTTSession requestResponseInformation]
+-[XGMQTTSession setRequestResponseInformation:]
+-[XGMQTTSession receiveMaximum]
+-[XGMQTTSession setReceiveMaximum:]
+-[XGMQTTSession topicAliasMaximum]
+-[XGMQTTSession setTopicAliasMaximum:]
+-[XGMQTTSession userProperty]
+-[XGMQTTSession setUserProperty:]
+-[XGMQTTSession maximumPacketSize]
+-[XGMQTTSession setMaximumPacketSize:]
+-[XGMQTTSession runLoop]
+-[XGMQTTSession runLoopMode]
+-[XGMQTTSession connectMessage]
+-[XGMQTTSession setConnectMessage:]
+-[XGMQTTSession transport]
+-[XGMQTTSession setTransport:]
+-[XGMQTTSession voip]
+-[XGMQTTSession setVoip:]
+-[XGMQTTSession keepAliveTimer]
+-[XGMQTTSession setKeepAliveTimer:]
+-[XGMQTTSession checkDupTimer]
+-[XGMQTTSession setCheckDupTimer:]
+-[XGMQTTSession decoder]
+-[XGMQTTSession setDecoder:]
+-[XGMQTTSession disconnectHandler]
+-[XGMQTTSession setDisconnectHandler:]
+-[XGMQTTSession subscribeHandlers]
+-[XGMQTTSession setSubscribeHandlers:]
+-[XGMQTTSession unsubscribeHandlers]
+-[XGMQTTSession setUnsubscribeHandlers:]
+-[XGMQTTSession publishHandlers]
+-[XGMQTTSession setPublishHandlers:]
+-[XGMQTTSession txMsgId]
+-[XGMQTTSession setTxMsgId:]
+-[XGMQTTSession synchronPub]
+-[XGMQTTSession setSynchronPub:]
+-[XGMQTTSession synchronPubMid]
+-[XGMQTTSession setSynchronPubMid:]
+-[XGMQTTSession synchronUnsub]
+-[XGMQTTSession setSynchronUnsub:]
+-[XGMQTTSession synchronUnsubMid]
+-[XGMQTTSession setSynchronUnsubMid:]
+-[XGMQTTSession synchronSub]
+-[XGMQTTSession setSynchronSub:]
+-[XGMQTTSession synchronSubMid]
+-[XGMQTTSession setSynchronSubMid:]
+-[XGMQTTSession synchronConnect]
+-[XGMQTTSession setSynchronConnect:]
+-[XGMQTTSession synchronDisconnect]
+-[XGMQTTSession setSynchronDisconnect:]
+-[XGMQTTSession securityPolicy]
+-[XGMQTTSession setSecurityPolicy:]
+-[XGMQTTSession .cxx_destruct]
+_OBJC_IVAR_$_XGMQTTSession.certificates
+_OBJC_IVAR_$_XGMQTTSession._transport
+_OBJC_IVAR_$_XGMQTTSession._clientId
+_OBJC_IVAR_$_XGMQTTSession._runLoop
+_OBJC_IVAR_$_XGMQTTSession._runLoopMode
+_OBJC_IVAR_$_XGMQTTSession._delegate
+_OBJC_IVAR_$_XGMQTTSession._persistence
+_OBJC_IVAR_$_XGMQTTSession._connectHandler
+_OBJC_IVAR_$_XGMQTTSession._connectionHandler
+_OBJC_IVAR_$_XGMQTTSession._messageHandler
+_OBJC_IVAR_$_XGMQTTSession._status
+_OBJC_IVAR_$_XGMQTTSession._sessionPresent
+_OBJC_IVAR_$_XGMQTTSession._userName
+_OBJC_IVAR_$_XGMQTTSession._password
+_OBJC_IVAR_$_XGMQTTSession._keepAliveInterval
+_OBJC_IVAR_$_XGMQTTSession._serverKeepAlive
+_OBJC_IVAR_$_XGMQTTSession._effectiveKeepAlive
+_OBJC_IVAR_$_XGMQTTSession._dupTimeout
+_OBJC_IVAR_$_XGMQTTSession._cleanSessionFlag
+_OBJC_IVAR_$_XGMQTTSession._willFlag
+_OBJC_IVAR_$_XGMQTTSession._willTopic
+_OBJC_IVAR_$_XGMQTTSession._willMsg
+_OBJC_IVAR_$_XGMQTTSession._willQoS
+_OBJC_IVAR_$_XGMQTTSession._willRetainFlag
+_OBJC_IVAR_$_XGMQTTSession._protocolLevel
+_OBJC_IVAR_$_XGMQTTSession._sessionExpiryInterval
+_OBJC_IVAR_$_XGMQTTSession._authMethod
+_OBJC_IVAR_$_XGMQTTSession._authData
+_OBJC_IVAR_$_XGMQTTSession._requestProblemInformation
+_OBJC_IVAR_$_XGMQTTSession._willDelayInterval
+_OBJC_IVAR_$_XGMQTTSession._requestResponseInformation
+_OBJC_IVAR_$_XGMQTTSession._receiveMaximum
+_OBJC_IVAR_$_XGMQTTSession._topicAliasMaximum
+_OBJC_IVAR_$_XGMQTTSession._userProperty
+_OBJC_IVAR_$_XGMQTTSession._maximumPacketSize
+_OBJC_IVAR_$_XGMQTTSession._connectMessage
+_OBJC_IVAR_$_XGMQTTSession._voip
+_OBJC_IVAR_$_XGMQTTSession._keepAliveTimer
+_OBJC_IVAR_$_XGMQTTSession._checkDupTimer
+_OBJC_IVAR_$_XGMQTTSession._decoder
+_OBJC_IVAR_$_XGMQTTSession._disconnectHandler
+_OBJC_IVAR_$_XGMQTTSession._subscribeHandlers
+_OBJC_IVAR_$_XGMQTTSession._unsubscribeHandlers
+_OBJC_IVAR_$_XGMQTTSession._publishHandlers
+_OBJC_IVAR_$_XGMQTTSession._txMsgId
+_OBJC_IVAR_$_XGMQTTSession._synchronPub
+_OBJC_IVAR_$_XGMQTTSession._synchronPubMid
+_OBJC_IVAR_$_XGMQTTSession._synchronUnsub
+_OBJC_IVAR_$_XGMQTTSession._synchronUnsubMid
+_OBJC_IVAR_$_XGMQTTSession._synchronSub
+_OBJC_IVAR_$_XGMQTTSession._synchronSubMid
+_OBJC_IVAR_$_XGMQTTSession._synchronConnect
+_OBJC_IVAR_$_XGMQTTSession._synchronDisconnect
+_OBJC_IVAR_$_XGMQTTSession._securityPolicy
+l_OBJC_PROTOCOL_$_XGMQTTDecoderDelegate
+l_OBJC_LABEL_PROTOCOL_$_XGMQTTDecoderDelegate
+l_OBJC_PROTOCOL_$_XGMQTTTransportDelegate
+l_OBJC_LABEL_PROTOCOL_$_XGMQTTTransportDelegate
+-[XGTPNsCloudIPRouteSocket URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[XGTPNsCloudIPRouteSocket URLSession:dataTask:didReceiveData:]
+-[XGTPNsCloudIPRouteSocket URLSession:task:didCompleteWithError:]
+-[XGTPNsCloudIPRouteSocket receivedData]
+-[XGTPNsCloudIPRouteSocket setReceivedData:]
+-[XGTPNsCloudIPRouteSocket .cxx_destruct]
+-[XGTPNsCloudIPRouteEvent tpnsRequestParams]
+-[XGTPNsCloudIPRouteEvent send]
+-[XGTPNsCloudIPRouteEvent observeValueForKeyPath:ofObject:change:context:]
+_OBJC_IVAR_$_XGTPNsCloudIPRouteSocket._receivedData
++[NSObject(XGWatchDog) checkTargetOtherLinkFlagForObjc]
+-[XGMQTTDecoder init]
+-[XGMQTTDecoder dealloc]
+-[XGMQTTDecoder decodeMessage:]
+-[XGMQTTDecoder openStream:]
+-[XGMQTTDecoder open]
+-[XGMQTTDecoder close]
+-[XGMQTTDecoder stream:handleEvent:]
+-[XGMQTTDecoder state]
+-[XGMQTTDecoder setState:]
+-[XGMQTTDecoder runLoop]
+-[XGMQTTDecoder setRunLoop:]
+-[XGMQTTDecoder runLoopMode]
+-[XGMQTTDecoder setRunLoopMode:]
+-[XGMQTTDecoder length]
+-[XGMQTTDecoder setLength:]
+-[XGMQTTDecoder lengthMultiplier]
+-[XGMQTTDecoder setLengthMultiplier:]
+-[XGMQTTDecoder offset]
+-[XGMQTTDecoder setOffset:]
+-[XGMQTTDecoder dataBuffer]
+-[XGMQTTDecoder setDataBuffer:]
+-[XGMQTTDecoder delegate]
+-[XGMQTTDecoder setDelegate:]
+-[XGMQTTDecoder streams]
+-[XGMQTTDecoder setStreams:]
+-[XGMQTTDecoder .cxx_destruct]
+_OBJC_IVAR_$_XGMQTTDecoder._state
+_OBJC_IVAR_$_XGMQTTDecoder._runLoop
+_OBJC_IVAR_$_XGMQTTDecoder._runLoopMode
+_OBJC_IVAR_$_XGMQTTDecoder._length
+_OBJC_IVAR_$_XGMQTTDecoder._lengthMultiplier
+_OBJC_IVAR_$_XGMQTTDecoder._offset
+_OBJC_IVAR_$_XGMQTTDecoder._dataBuffer
+_OBJC_IVAR_$_XGMQTTDecoder._delegate
+_OBJC_IVAR_$_XGMQTTDecoder._streams
+l_OBJC_PROTOCOL_$_NSStreamDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSStreamDelegate
++[XGPluginIDFA getInstance]
+___27+[XGPluginIDFA getInstance]_block_invoke
+-[XGPluginIDFA setDelegate:]
+-[XGPluginIDFA delegate]
+-[XGPluginIDFA .cxx_destruct]
+_getInstance.once
+_getInstance.__singleton__
+_OBJC_IVAR_$_XGPluginIDFA._delegate
+-[XGMQTTCoreDataFlow initWithContext:andObject:]
+-[XGMQTTCoreDataFlow clientId]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___30-[XGMQTTCoreDataFlow clientId]_block_invoke
+-[XGMQTTCoreDataFlow setClientId:]
+___34-[XGMQTTCoreDataFlow setClientId:]_block_invoke
+___copy_helper_block_.53
+___destroy_helper_block_.54
+-[XGMQTTCoreDataFlow incomingFlag]
+___34-[XGMQTTCoreDataFlow incomingFlag]_block_invoke
+___copy_helper_block_.57
+___destroy_helper_block_.58
+-[XGMQTTCoreDataFlow setIncomingFlag:]
+___38-[XGMQTTCoreDataFlow setIncomingFlag:]_block_invoke
+___copy_helper_block_.61
+___destroy_helper_block_.62
+-[XGMQTTCoreDataFlow retainedFlag]
+___34-[XGMQTTCoreDataFlow retainedFlag]_block_invoke
+___copy_helper_block_.65
+___destroy_helper_block_.66
+-[XGMQTTCoreDataFlow setRetainedFlag:]
+___38-[XGMQTTCoreDataFlow setRetainedFlag:]_block_invoke
+___copy_helper_block_.69
+___destroy_helper_block_.70
+-[XGMQTTCoreDataFlow commandType]
+___33-[XGMQTTCoreDataFlow commandType]_block_invoke
+___copy_helper_block_.73
+___destroy_helper_block_.74
+-[XGMQTTCoreDataFlow setCommandType:]
+___37-[XGMQTTCoreDataFlow setCommandType:]_block_invoke
+___copy_helper_block_.77
+___destroy_helper_block_.78
+-[XGMQTTCoreDataFlow qosLevel]
+___30-[XGMQTTCoreDataFlow qosLevel]_block_invoke
+___copy_helper_block_.81
+___destroy_helper_block_.82
+-[XGMQTTCoreDataFlow setQosLevel:]
+___34-[XGMQTTCoreDataFlow setQosLevel:]_block_invoke
+___copy_helper_block_.85
+___destroy_helper_block_.86
+-[XGMQTTCoreDataFlow messageId]
+___31-[XGMQTTCoreDataFlow messageId]_block_invoke
+___copy_helper_block_.89
+___destroy_helper_block_.90
+-[XGMQTTCoreDataFlow setMessageId:]
+___35-[XGMQTTCoreDataFlow setMessageId:]_block_invoke
+___copy_helper_block_.93
+___destroy_helper_block_.94
+-[XGMQTTCoreDataFlow topic]
+___27-[XGMQTTCoreDataFlow topic]_block_invoke
+___copy_helper_block_.97
+___destroy_helper_block_.98
+-[XGMQTTCoreDataFlow setTopic:]
+___31-[XGMQTTCoreDataFlow setTopic:]_block_invoke
+___copy_helper_block_.101
+___destroy_helper_block_.102
+-[XGMQTTCoreDataFlow data]
+___26-[XGMQTTCoreDataFlow data]_block_invoke
+___copy_helper_block_.105
+___destroy_helper_block_.106
+-[XGMQTTCoreDataFlow setData:]
+___30-[XGMQTTCoreDataFlow setData:]_block_invoke
+___copy_helper_block_.109
+___destroy_helper_block_.110
+-[XGMQTTCoreDataFlow deadline]
+___30-[XGMQTTCoreDataFlow deadline]_block_invoke
+___copy_helper_block_.113
+___destroy_helper_block_.114
+-[XGMQTTCoreDataFlow setDeadline:]
+___34-[XGMQTTCoreDataFlow setDeadline:]_block_invoke
+___copy_helper_block_.117
+___destroy_helper_block_.118
+-[XGMQTTCoreDataFlow context]
+-[XGMQTTCoreDataFlow setContext:]
+-[XGMQTTCoreDataFlow object]
+-[XGMQTTCoreDataFlow setObject:]
+-[XGMQTTCoreDataFlow .cxx_destruct]
+-[XGMQTTCoreDataPersistence init]
+-[XGMQTTCoreDataPersistence windowSize:]
+-[XGMQTTCoreDataPersistence storeMessageForClientId:topic:data:retainFlag:qos:msgId:incomingFlag:commandType:deadline:]
+-[XGMQTTCoreDataPersistence deleteFlow:]
+___40-[XGMQTTCoreDataPersistence deleteFlow:]_block_invoke
+___copy_helper_block_.181
+___destroy_helper_block_.182
+-[XGMQTTCoreDataPersistence deleteAllFlowsForClientId:]
+___55-[XGMQTTCoreDataPersistence deleteAllFlowsForClientId:]_block_invoke
+___copy_helper_block_.186
+___destroy_helper_block_.187
+-[XGMQTTCoreDataPersistence sync]
+___33-[XGMQTTCoreDataPersistence sync]_block_invoke
+___copy_helper_block_.191
+___destroy_helper_block_.192
+-[XGMQTTCoreDataPersistence internalSync]
+-[XGMQTTCoreDataPersistence allFlowsforClientId:incomingFlag:]
+___62-[XGMQTTCoreDataPersistence allFlowsforClientId:incomingFlag:]_block_invoke
+___copy_helper_block_.226
+___destroy_helper_block_.227
+-[XGMQTTCoreDataPersistence flowforClientId:incomingFlag:messageId:]
+___68-[XGMQTTCoreDataPersistence flowforClientId:incomingFlag:messageId:]_block_invoke
+___copy_helper_block_.235
+___destroy_helper_block_.236
+-[XGMQTTCoreDataPersistence internalFlowForClientId:incomingFlag:messageId:]
+-[XGMQTTCoreDataPersistence createFlowforClientId:incomingFlag:messageId:]
+___74-[XGMQTTCoreDataPersistence createFlowforClientId:incomingFlag:messageId:]_block_invoke
+___copy_helper_block_.249
+___destroy_helper_block_.250
+-[XGMQTTCoreDataPersistence createManagedObjectModel]
+-[XGMQTTCoreDataPersistence createPersistentStoreCoordinator]
+-[XGMQTTCoreDataPersistence applicationDocumentsDirectory]
+-[XGMQTTCoreDataPersistence sizes]
+-[XGMQTTCoreDataPersistence persistent]
+-[XGMQTTCoreDataPersistence setPersistent:]
+-[XGMQTTCoreDataPersistence maxSize]
+-[XGMQTTCoreDataPersistence setMaxSize:]
+-[XGMQTTCoreDataPersistence maxMessages]
+-[XGMQTTCoreDataPersistence setMaxMessages:]
+-[XGMQTTCoreDataPersistence maxWindowSize]
+-[XGMQTTCoreDataPersistence setMaxWindowSize:]
+-[XGMQTTCoreDataPersistence managedObjectContext]
+-[XGMQTTCoreDataPersistence setManagedObjectContext:]
+-[XGMQTTCoreDataPersistence fileSize]
+-[XGMQTTCoreDataPersistence setFileSize:]
+-[XGMQTTCoreDataPersistence fileSystemFreeSize]
+-[XGMQTTCoreDataPersistence setFileSystemFreeSize:]
+-[XGMQTTCoreDataPersistence .cxx_destruct]
+l_OBJC_PROTOCOL_$_XGMQTTFlow
+l_OBJC_LABEL_PROTOCOL_$_XGMQTTFlow
+_OBJC_IVAR_$_XGMQTTCoreDataFlow.context
+_OBJC_IVAR_$_XGMQTTCoreDataFlow.object
+___block_descriptor_tmp.55
+___block_descriptor_tmp.59
+___block_descriptor_tmp.63
+___block_descriptor_tmp.67
+___block_descriptor_tmp.71
+___block_descriptor_tmp.75
+___block_descriptor_tmp.79
+___block_descriptor_tmp.87
+___block_descriptor_tmp.91
+___block_descriptor_tmp.95
+___block_descriptor_tmp.99
+___block_descriptor_tmp.103
+___block_descriptor_tmp.107
+___block_descriptor_tmp.111
+___block_descriptor_tmp.115
+___block_descriptor_tmp.119
+___block_descriptor_tmp.183
+___block_descriptor_tmp.188
+___block_descriptor_tmp.193
+___block_descriptor_tmp.228
+___block_descriptor_tmp.237
+___block_descriptor_tmp.251
+_OBJC_IVAR_$_XGMQTTCoreDataPersistence.persistent
+_OBJC_IVAR_$_XGMQTTCoreDataPersistence.maxSize
+_OBJC_IVAR_$_XGMQTTCoreDataPersistence.maxMessages
+_OBJC_IVAR_$_XGMQTTCoreDataPersistence.maxWindowSize
+_OBJC_IVAR_$_XGMQTTCoreDataPersistence._managedObjectContext
+_OBJC_IVAR_$_XGMQTTCoreDataPersistence._fileSize
+_OBJC_IVAR_$_XGMQTTCoreDataPersistence._fileSystemFreeSize
+l_OBJC_PROTOCOL_$_XGMQTTPersistence
+l_OBJC_LABEL_PROTOCOL_$_XGMQTTPersistence
+-[XGForegroundReconnection initWithMQTTSessionManager:]
+-[XGForegroundReconnection dealloc]
+-[XGForegroundReconnection appWillResignActive]
+-[XGForegroundReconnection appDidEnterBackground]
+___49-[XGForegroundReconnection appDidEnterBackground]_block_invoke
+-[XGForegroundReconnection appDidBecomeActive]
+-[XGForegroundReconnection endBackgroundTask]
+-[XGForegroundReconnection sessionManager]
+-[XGForegroundReconnection setSessionManager:]
+-[XGForegroundReconnection backgroundTask]
+-[XGForegroundReconnection setBackgroundTask:]
+-[XGForegroundReconnection .cxx_destruct]
+_OBJC_IVAR_$_XGForegroundReconnection._sessionManager
+_OBJC_IVAR_$_XGForegroundReconnection._backgroundTask
+-[NSObject(XGPushInjectionLogicKey) mr_injection_superclass]
+-[NSObject(XGPushInjectionLogicKey) setMr_injection_superclass:]
+-[NSObject(XGPushInjectionLogicKey) mr_injection_logic_class]
+-[NSObject(XGPushInjectionLogicKey) setMr_injection_logic_class:]
+-[NSObject(XGPushInjectionLogicKey) mr_injection_logic_key]
+-[NSObject(XGPushInjectionLogicKey) setMr_injection_logic_key:]
+_kXGPushInjectionClassMapSuperClass
+_kXGPushInjectionClassMapSourceClass
+_kXGPushInjectionClassMap
++[XGMQTTStrict strict]
++[XGMQTTStrict setStrict:]
+_internalStrict
+-[XGMQTTSessionManager initWithPersistence:maxWindowSize:maxMessages:maxSize:maxConnectionRetryInterval:connectInForeground:]
+___125-[XGMQTTSessionManager initWithPersistence:maxWindowSize:maxMessages:maxSize:maxConnectionRetryInterval:connectInForeground:]_block_invoke
+-[XGMQTTSessionManager initWithPersistence:maxWindowSize:maxMessages:maxSize:connectInForeground:]
+-[XGMQTTSessionManager init]
+-[XGMQTTSessionManager initWithPersistence:maxWindowSize:maxMessages:maxSize:]
+-[XGMQTTSessionManager connectTo:port:tls:keepalive:clean:auth:user:pass:willTopic:will:willQos:willRetainFlag:withClientId:]
+-[XGMQTTSessionManager connectTo:port:tls:keepalive:clean:auth:user:pass:will:willTopic:willMsg:willQos:willRetainFlag:withClientId:]
+-[XGMQTTSessionManager connectTo:port:tls:keepalive:clean:auth:user:pass:will:willTopic:willMsg:willQos:willRetainFlag:withClientId:securityPolicy:certificates:protocolLevel:]
+-[XGMQTTSessionManager connectTo:port:tls:keepalive:clean:auth:user:pass:will:willTopic:willMsg:willQos:willRetainFlag:withClientId:securityPolicy:certificates:]
+-[XGMQTTSessionManager connectTo:port:tls:keepalive:clean:auth:user:pass:will:willTopic:willMsg:willQos:willRetainFlag:withClientId:securityPolicy:certificates:protocolLevel:runLoop:]
+-[XGMQTTSessionManager sendData:topic:qos:retain:]
+-[XGMQTTSessionManager disconnect]
+-[XGMQTTSessionManager requiresTearDown]
+-[XGMQTTSessionManager updateState:]
+-[XGMQTTSessionManager handleEvent:event:error:]
+-[XGMQTTSessionManager newMessage:data:onTopic:qos:retained:mid:]
+-[XGMQTTSessionManager connected:sessionPresent:]
+___49-[XGMQTTSessionManager connected:sessionPresent:]_block_invoke
+___copy_helper_block_.195
+___destroy_helper_block_.196
+-[XGMQTTSessionManager messageDelivered:msgID:]
+-[XGMQTTSessionManager connectToInternal]
+-[XGMQTTSessionManager reconnect]
+-[XGMQTTSessionManager connectToLast]
+-[XGMQTTSessionManager triggerDelayedReconnect]
+-[XGMQTTSessionManager subscriptions]
+-[XGMQTTSessionManager setSubscriptions:]
+___41-[XGMQTTSessionManager setSubscriptions:]_block_invoke
+___copy_helper_block_.217
+___destroy_helper_block_.218
+___41-[XGMQTTSessionManager setSubscriptions:]_block_invoke.225
+-[XGMQTTSessionManager session]
+-[XGMQTTSessionManager setSession:]
+-[XGMQTTSessionManager host]
+-[XGMQTTSessionManager setHost:]
+-[XGMQTTSessionManager port]
+-[XGMQTTSessionManager setPort:]
+-[XGMQTTSessionManager delegate]
+-[XGMQTTSessionManager setDelegate:]
+-[XGMQTTSessionManager effectiveSubscriptions]
+-[XGMQTTSessionManager setEffectiveSubscriptions:]
+-[XGMQTTSessionManager state]
+-[XGMQTTSessionManager setState:]
+-[XGMQTTSessionManager lastErrorCode]
+-[XGMQTTSessionManager setLastErrorCode:]
+-[XGMQTTSessionManager reconnectTimer]
+-[XGMQTTSessionManager setReconnectTimer:]
+-[XGMQTTSessionManager reconnectFlag]
+-[XGMQTTSessionManager setReconnectFlag:]
+-[XGMQTTSessionManager tls]
+-[XGMQTTSessionManager setTls:]
+-[XGMQTTSessionManager keepalive]
+-[XGMQTTSessionManager setKeepalive:]
+-[XGMQTTSessionManager clean]
+-[XGMQTTSessionManager setClean:]
+-[XGMQTTSessionManager auth]
+-[XGMQTTSessionManager setAuth:]
+-[XGMQTTSessionManager will]
+-[XGMQTTSessionManager setWill:]
+-[XGMQTTSessionManager user]
+-[XGMQTTSessionManager setUser:]
+-[XGMQTTSessionManager pass]
+-[XGMQTTSessionManager setPass:]
+-[XGMQTTSessionManager willTopic]
+-[XGMQTTSessionManager setWillTopic:]
+-[XGMQTTSessionManager willMsg]
+-[XGMQTTSessionManager setWillMsg:]
+-[XGMQTTSessionManager willQos]
+-[XGMQTTSessionManager setWillQos:]
+-[XGMQTTSessionManager willRetainFlag]
+-[XGMQTTSessionManager setWillRetainFlag:]
+-[XGMQTTSessionManager clientId]
+-[XGMQTTSessionManager setClientId:]
+-[XGMQTTSessionManager runLoop]
+-[XGMQTTSessionManager setRunLoop:]
+-[XGMQTTSessionManager securityPolicy]
+-[XGMQTTSessionManager setSecurityPolicy:]
+-[XGMQTTSessionManager certificates]
+-[XGMQTTSessionManager setCertificates:]
+-[XGMQTTSessionManager protocolLevel]
+-[XGMQTTSessionManager setProtocolLevel:]
+-[XGMQTTSessionManager foregroundReconnection]
+-[XGMQTTSessionManager setForegroundReconnection:]
+-[XGMQTTSessionManager persistent]
+-[XGMQTTSessionManager setPersistent:]
+-[XGMQTTSessionManager maxWindowSize]
+-[XGMQTTSessionManager setMaxWindowSize:]
+-[XGMQTTSessionManager maxSize]
+-[XGMQTTSessionManager setMaxSize:]
+-[XGMQTTSessionManager maxMessages]
+-[XGMQTTSessionManager setMaxMessages:]
+-[XGMQTTSessionManager internalSubscriptions]
+-[XGMQTTSessionManager setInternalSubscriptions:]
+-[XGMQTTSessionManager subscriptionLock]
+-[XGMQTTSessionManager setSubscriptionLock:]
+-[XGMQTTSessionManager .cxx_destruct]
+___block_descriptor_tmp.198
+___block_descriptor_tmp.220
+_OBJC_IVAR_$_XGMQTTSessionManager._session
+_OBJC_IVAR_$_XGMQTTSessionManager._host
+_OBJC_IVAR_$_XGMQTTSessionManager._port
+_OBJC_IVAR_$_XGMQTTSessionManager._delegate
+_OBJC_IVAR_$_XGMQTTSessionManager._effectiveSubscriptions
+_OBJC_IVAR_$_XGMQTTSessionManager._state
+_OBJC_IVAR_$_XGMQTTSessionManager._lastErrorCode
+_OBJC_IVAR_$_XGMQTTSessionManager._reconnectTimer
+_OBJC_IVAR_$_XGMQTTSessionManager._reconnectFlag
+_OBJC_IVAR_$_XGMQTTSessionManager._tls
+_OBJC_IVAR_$_XGMQTTSessionManager._keepalive
+_OBJC_IVAR_$_XGMQTTSessionManager._clean
+_OBJC_IVAR_$_XGMQTTSessionManager._auth
+_OBJC_IVAR_$_XGMQTTSessionManager._will
+_OBJC_IVAR_$_XGMQTTSessionManager._user
+_OBJC_IVAR_$_XGMQTTSessionManager._pass
+_OBJC_IVAR_$_XGMQTTSessionManager._willTopic
+_OBJC_IVAR_$_XGMQTTSessionManager._willMsg
+_OBJC_IVAR_$_XGMQTTSessionManager._willQos
+_OBJC_IVAR_$_XGMQTTSessionManager._willRetainFlag
+_OBJC_IVAR_$_XGMQTTSessionManager._clientId
+_OBJC_IVAR_$_XGMQTTSessionManager._runLoop
+_OBJC_IVAR_$_XGMQTTSessionManager._securityPolicy
+_OBJC_IVAR_$_XGMQTTSessionManager._certificates
+_OBJC_IVAR_$_XGMQTTSessionManager._protocolLevel
+_OBJC_IVAR_$_XGMQTTSessionManager._foregroundReconnection
+_OBJC_IVAR_$_XGMQTTSessionManager._persistent
+_OBJC_IVAR_$_XGMQTTSessionManager._maxWindowSize
+_OBJC_IVAR_$_XGMQTTSessionManager._maxSize
+_OBJC_IVAR_$_XGMQTTSessionManager._maxMessages
+_OBJC_IVAR_$_XGMQTTSessionManager._internalSubscriptions
+_OBJC_IVAR_$_XGMQTTSessionManager._subscriptionLock
+l_OBJC_PROTOCOL_$_XGMQTTSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_XGMQTTSessionDelegate
+-[XGXPC init]
+___13-[XGXPC init]_block_invoke
+-[XGXPC registerDeviceTokenToXGServer:completionHandler:]
+___57-[XGXPC registerDeviceTokenToXGServer:completionHandler:]_block_invoke
+___copy_helper_block_.58
+___destroy_helper_block_.59
+-[XGXPC stopXGNotificationCompletionHandler:]
+___45-[XGXPC stopXGNotificationCompletionHandler:]_block_invoke
+___copy_helper_block_.83
+___destroy_helper_block_.84
+___45-[XGXPC stopXGNotificationCompletionHandler:]_block_invoke.92
+-[XGXPC setBadge:completionHandler:]
+___36-[XGXPC setBadge:completionHandler:]_block_invoke
+___copy_helper_block_.114
+___destroy_helper_block_.115
+-[XGXPC reportXGNotificationInfo:presentType:completionHandler:]
+___64-[XGXPC reportXGNotificationInfo:presentType:completionHandler:]_block_invoke
+___copy_helper_block_.140
+___destroy_helper_block_.141
+-[XGXPC checkConditionForXGPush]
+-[XGXPC bindAccountWithIdentifier:isBind:completionHandler:]
+___60-[XGXPC bindAccountWithIdentifier:isBind:completionHandler:]_block_invoke
+___copy_helper_block_.168
+___destroy_helper_block_.169
+-[XGXPC bindTagWithIdentifier:isBind:completionHandler:]
+___56-[XGXPC bindTagWithIdentifier:isBind:completionHandler:]_block_invoke
+___copy_helper_block_.176
+___destroy_helper_block_.177
+-[XGXPC bindErrorWithIdentifier:isBind:isSystemError:type:code:completionHandler:]
+-[XGXPC bindWithIdentifiers:type:completionHandler:]
+___52-[XGXPC bindWithIdentifiers:type:completionHandler:]_block_invoke
+___copy_helper_block_.207
+___destroy_helper_block_.208
+___52-[XGXPC bindWithIdentifiers:type:completionHandler:]_block_invoke.219
+___copy_helper_block_.230
+___destroy_helper_block_.231
+___52-[XGXPC bindWithIdentifiers:type:completionHandler:]_block_invoke.240
+-[XGXPC unbindWithIdentifers:type:completionHandler:]
+___53-[XGXPC unbindWithIdentifers:type:completionHandler:]_block_invoke
+___copy_helper_block_.248
+___destroy_helper_block_.249
+___53-[XGXPC unbindWithIdentifers:type:completionHandler:]_block_invoke.251
+___copy_helper_block_.258
+___destroy_helper_block_.259
+___53-[XGXPC unbindWithIdentifers:type:completionHandler:]_block_invoke.261
+___53-[XGXPC unbindWithIdentifers:type:completionHandler:]_block_invoke_2
+___copy_helper_block_.278
+___destroy_helper_block_.279
+___copy_helper_block_.290
+___destroy_helper_block_.291
+-[XGXPC updateBindedIdentifiers:bindType:completionHandler:]
+___60-[XGXPC updateBindedIdentifiers:bindType:completionHandler:]_block_invoke
+___copy_helper_block_.293
+___destroy_helper_block_.294
+___60-[XGXPC updateBindedIdentifiers:bindType:completionHandler:]_block_invoke.296
+___copy_helper_block_.301
+___destroy_helper_block_.302
+___60-[XGXPC updateBindedIdentifiers:bindType:completionHandler:]_block_invoke.304
+___copy_helper_block_.309
+___destroy_helper_block_.310
+-[XGXPC clearAllIdentifiers:completionHandler:]
+___47-[XGXPC clearAllIdentifiers:completionHandler:]_block_invoke
+___copy_helper_block_.316
+___destroy_helper_block_.317
+___47-[XGXPC clearAllIdentifiers:completionHandler:]_block_invoke.319
+___copy_helper_block_.324
+___destroy_helper_block_.325
+-[XGXPC tpnsEventList]
+-[XGXPC setTpnsEventList:]
+-[XGXPC .cxx_destruct]
+_init.onceToken
+___block_descriptor_tmp.61
+___block_descriptor_tmp.116
+___block_descriptor_tmp.142
+___block_descriptor_tmp.170
+___block_descriptor_tmp.178
+___block_descriptor_tmp.210
+___block_descriptor_tmp.232
+___block_descriptor_tmp.250
+___block_descriptor_tmp.260
+___block_descriptor_tmp.281
+___block_descriptor_tmp.292
+___block_descriptor_tmp.295
+___block_descriptor_tmp.303
+___block_descriptor_tmp.311
+___block_descriptor_tmp.318
+___block_descriptor_tmp.326
+_OBJC_IVAR_$_XGXPC._tpnsEventList
+l_OBJC_PROTOCOL_$_XGXPCProtocol
+l_OBJC_LABEL_PROTOCOL_$_XGXPCProtocol
+-[XGTPNsBadgeSocket handleMessage:onTopic:retained:]
+___52-[XGTPNsBadgeSocket handleMessage:onTopic:retained:]_block_invoke
+___52-[XGTPNsBadgeSocket handleMessage:onTopic:retained:]_block_invoke_2
+-[XGTPNsBadgeSocket sessionManager:didReceiveMessage:onTopic:retained:]
+-[XGTPNsBadgeSocket messageDelivered:]
+-[XGTPNsBadgeSocket sessionManager:didDeliverMessage:]
+-[XGTPNsBadgeSocket sessionManager:didChangeState:]
+-[XGTPNsBadgeSocket badgeNumber]
+-[XGTPNsBadgeSocket setBadgeNumber:]
+-[XGTPNsBadgeEvent tpnsRequestParams]
+-[XGTPNsBadgeEvent initWithParameter:tpnsType:completionHandler:]
+-[XGTPNsBadgeEvent send]
+-[XGTPNsBadgeEvent observeValueForKeyPath:ofObject:change:context:]
+_OBJC_IVAR_$_XGTPNsBadgeSocket._badgeNumber
+-[XGReconnectTimer initWithRetryInterval:maxRetryInterval:reconnectBlock:]
+-[XGReconnectTimer schedule]
+-[XGReconnectTimer stop]
+-[XGReconnectTimer resetRetryInterval]
+-[XGReconnectTimer reconnect]
+-[XGReconnectTimer timer]
+-[XGReconnectTimer setTimer:]
+-[XGReconnectTimer retryInterval]
+-[XGReconnectTimer setRetryInterval:]
+-[XGReconnectTimer currentRetryInterval]
+-[XGReconnectTimer setCurrentRetryInterval:]
+-[XGReconnectTimer maxRetryInterval]
+-[XGReconnectTimer setMaxRetryInterval:]
+-[XGReconnectTimer reconnectBlock]
+-[XGReconnectTimer setReconnectBlock:]
+-[XGReconnectTimer .cxx_destruct]
+_OBJC_IVAR_$_XGReconnectTimer._timer
+_OBJC_IVAR_$_XGReconnectTimer._retryInterval
+_OBJC_IVAR_$_XGReconnectTimer._currentRetryInterval
+_OBJC_IVAR_$_XGReconnectTimer._maxRetryInterval
+_OBJC_IVAR_$_XGReconnectTimer._reconnectBlock
+-[XGDeviceManager(XGPushKit) initXGPushKitInfo]
+-[XGDeviceManager(XGPushKit) deviceTokenPushKit]
+-[XGDeviceManager(XGPushKit) setDeviceTokenPushKit:]
+-[XGDeviceManager(XGPushKit) setXgTokenPushKit:]
+-[XGDeviceManager(XGPushKit) xgTokenPushKit]
+-[XGDeviceManager(XGPushKit) setDeviceGUIDPushKit:]
+-[XGDeviceManager(XGPushKit) deviceGUIDPushKit]
+-[XGDeviceManager(XGPushKit) setRequestIDPushKit:]
+-[XGDeviceManager(XGPushKit) requestIDPushKit]
+-[XGDeviceManager(XGPushKit) synchronizePushKitData]
+_deviceDatas
+-[XGMQTTTransport init]
+-[XGMQTTTransport open]
+-[XGMQTTTransport close]
+-[XGMQTTTransport send:]
+-[XGMQTTTransport state]
+-[XGMQTTTransport setState:]
+-[XGMQTTTransport runLoop]
+-[XGMQTTTransport setRunLoop:]
+-[XGMQTTTransport runLoopMode]
+-[XGMQTTTransport setRunLoopMode:]
+-[XGMQTTTransport delegate]
+-[XGMQTTTransport setDelegate:]
+-[XGMQTTTransport host]
+-[XGMQTTTransport setHost:]
+-[XGMQTTTransport port]
+-[XGMQTTTransport setPort:]
+-[XGMQTTTransport .cxx_destruct]
+_OBJC_IVAR_$_XGMQTTTransport.state
+_OBJC_IVAR_$_XGMQTTTransport.runLoop
+_OBJC_IVAR_$_XGMQTTTransport.runLoopMode
+_OBJC_IVAR_$_XGMQTTTransport.delegate
+_OBJC_IVAR_$_XGMQTTTransport.host
+_OBJC_IVAR_$_XGMQTTTransport.port
+-[XGMQTTProperties init]
+-[XGMQTTProperties initFromData:]
++[XGMQTTProperties getVariableLength:]
++[XGMQTTProperties getTwoByteInt:]
++[XGMQTTProperties getFourByteInt:]
++[XGMQTTProperties getUtf8String:]
++[XGMQTTProperties getBinaryData:]
++[XGMQTTProperties variableIntLength:]
+-[XGMQTTProperties payloadFormatIndicator]
+-[XGMQTTProperties setPayloadFormatIndicator:]
+-[XGMQTTProperties publicationExpiryInterval]
+-[XGMQTTProperties setPublicationExpiryInterval:]
+-[XGMQTTProperties contentType]
+-[XGMQTTProperties setContentType:]
+-[XGMQTTProperties responseTopic]
+-[XGMQTTProperties setResponseTopic:]
+-[XGMQTTProperties correlationData]
+-[XGMQTTProperties setCorrelationData:]
+-[XGMQTTProperties subscriptionIdentifier]
+-[XGMQTTProperties setSubscriptionIdentifier:]
+-[XGMQTTProperties sessionExpiryInterval]
+-[XGMQTTProperties setSessionExpiryInterval:]
+-[XGMQTTProperties assignedClientIdentifier]
+-[XGMQTTProperties setAssignedClientIdentifier:]
+-[XGMQTTProperties serverKeepAlive]
+-[XGMQTTProperties setServerKeepAlive:]
+-[XGMQTTProperties authMethod]
+-[XGMQTTProperties setAuthMethod:]
+-[XGMQTTProperties authData]
+-[XGMQTTProperties setAuthData:]
+-[XGMQTTProperties requestProblemInformation]
+-[XGMQTTProperties setRequestProblemInformation:]
+-[XGMQTTProperties willDelayInterval]
+-[XGMQTTProperties setWillDelayInterval:]
+-[XGMQTTProperties requestResponseInformation]
+-[XGMQTTProperties setRequestResponseInformation:]
+-[XGMQTTProperties responseInformation]
+-[XGMQTTProperties setResponseInformation:]
+-[XGMQTTProperties serverReference]
+-[XGMQTTProperties setServerReference:]
+-[XGMQTTProperties reasonString]
+-[XGMQTTProperties setReasonString:]
+-[XGMQTTProperties receiveMaximum]
+-[XGMQTTProperties setReceiveMaximum:]
+-[XGMQTTProperties topicAliasMaximum]
+-[XGMQTTProperties setTopicAliasMaximum:]
+-[XGMQTTProperties topicAlias]
+-[XGMQTTProperties setTopicAlias:]
+-[XGMQTTProperties maximumQoS]
+-[XGMQTTProperties setMaximumQoS:]
+-[XGMQTTProperties retainAvailable]
+-[XGMQTTProperties setRetainAvailable:]
+-[XGMQTTProperties userProperty]
+-[XGMQTTProperties setUserProperty:]
+-[XGMQTTProperties maximumPacketSize]
+-[XGMQTTProperties setMaximumPacketSize:]
+-[XGMQTTProperties wildcardSubscriptionAvailable]
+-[XGMQTTProperties setWildcardSubscriptionAvailable:]
+-[XGMQTTProperties subscriptionIdentifiersAvailable]
+-[XGMQTTProperties setSubscriptionIdentifiersAvailable:]
+-[XGMQTTProperties sharedSubscriptionAvailable]
+-[XGMQTTProperties setSharedSubscriptionAvailable:]
+-[XGMQTTProperties .cxx_destruct]
+_OBJC_IVAR_$_XGMQTTProperties._payloadFormatIndicator
+_OBJC_IVAR_$_XGMQTTProperties._publicationExpiryInterval
+_OBJC_IVAR_$_XGMQTTProperties._contentType
+_OBJC_IVAR_$_XGMQTTProperties._responseTopic
+_OBJC_IVAR_$_XGMQTTProperties._correlationData
+_OBJC_IVAR_$_XGMQTTProperties._subscriptionIdentifier
+_OBJC_IVAR_$_XGMQTTProperties._sessionExpiryInterval
+_OBJC_IVAR_$_XGMQTTProperties._assignedClientIdentifier
+_OBJC_IVAR_$_XGMQTTProperties._serverKeepAlive
+_OBJC_IVAR_$_XGMQTTProperties._authMethod
+_OBJC_IVAR_$_XGMQTTProperties._authData
+_OBJC_IVAR_$_XGMQTTProperties._requestProblemInformation
+_OBJC_IVAR_$_XGMQTTProperties._willDelayInterval
+_OBJC_IVAR_$_XGMQTTProperties._requestResponseInformation
+_OBJC_IVAR_$_XGMQTTProperties._responseInformation
+_OBJC_IVAR_$_XGMQTTProperties._serverReference
+_OBJC_IVAR_$_XGMQTTProperties._reasonString
+_OBJC_IVAR_$_XGMQTTProperties._receiveMaximum
+_OBJC_IVAR_$_XGMQTTProperties._topicAliasMaximum
+_OBJC_IVAR_$_XGMQTTProperties._topicAlias
+_OBJC_IVAR_$_XGMQTTProperties._maximumQoS
+_OBJC_IVAR_$_XGMQTTProperties._retainAvailable
+_OBJC_IVAR_$_XGMQTTProperties._userProperty
+_OBJC_IVAR_$_XGMQTTProperties._maximumPacketSize
+_OBJC_IVAR_$_XGMQTTProperties._wildcardSubscriptionAvailable
+_OBJC_IVAR_$_XGMQTTProperties._subscriptionIdentifiersAvailable
+_OBJC_IVAR_$_XGMQTTProperties._sharedSubscriptionAvailable
+-[XGMQTTCFSocketDecoder init]
+-[XGMQTTCFSocketDecoder open]
+-[XGMQTTCFSocketDecoder dealloc]
+-[XGMQTTCFSocketDecoder close]
+-[XGMQTTCFSocketDecoder stream:handleEvent:]
+-[XGMQTTCFSocketDecoder state]
+-[XGMQTTCFSocketDecoder setState:]
+-[XGMQTTCFSocketDecoder error]
+-[XGMQTTCFSocketDecoder setError:]
+-[XGMQTTCFSocketDecoder stream]
+-[XGMQTTCFSocketDecoder setStream:]
+-[XGMQTTCFSocketDecoder runLoop]
+-[XGMQTTCFSocketDecoder setRunLoop:]
+-[XGMQTTCFSocketDecoder runLoopMode]
+-[XGMQTTCFSocketDecoder setRunLoopMode:]
+-[XGMQTTCFSocketDecoder delegate]
+-[XGMQTTCFSocketDecoder setDelegate:]
+-[XGMQTTCFSocketDecoder .cxx_destruct]
+_OBJC_IVAR_$_XGMQTTCFSocketDecoder._state
+_OBJC_IVAR_$_XGMQTTCFSocketDecoder._error
+_OBJC_IVAR_$_XGMQTTCFSocketDecoder._stream
+_OBJC_IVAR_$_XGMQTTCFSocketDecoder._runLoop
+_OBJC_IVAR_$_XGMQTTCFSocketDecoder._runLoopMode
+_OBJC_IVAR_$_XGMQTTCFSocketDecoder._delegate
+-[XGTPNsUnregisterSocket handleMessage:onTopic:retained:]
+-[XGTPNsUnregisterSocket sessionManager:didReceiveMessage:onTopic:retained:]
+-[XGTPNsUnregisterSocket messageDelivered:]
+-[XGTPNsUnregisterSocket sessionManager:didDeliverMessage:]
+-[XGTPNsUnregisterSocket sessionManager:didChangeState:]
+-[XGTPNsUnregisterEvent tpnsRequestParams]
+-[XGTPNsUnregisterEvent send]
+-[XGTPNsUnregisterEvent observeValueForKeyPath:ofObject:change:context:]
+-[XGBaseModel registerStatus]
+-[XGBaseModel setRegisterStatus:]
+-[XGBaseModel updateTime]
+-[XGBaseModel setUpdateTime:]
+-[XGBaseModel .cxx_destruct]
+_OBJC_IVAR_$_XGBaseModel._registerStatus
+_OBJC_IVAR_$_XGBaseModel._updateTime
+-[XGTPNsSocket initWithType:completionHandler:]
+-[XGTPNsSocket callback]
+-[XGTPNsSocket setCallback:]
+-[XGTPNsSocket tpnsType]
+-[XGTPNsSocket setTpnsType:]
+-[XGTPNsSocket isPushKit]
+-[XGTPNsSocket setIsPushKit:]
+-[XGTPNsSocket requestID]
+-[XGTPNsSocket setRequestID:]
+-[XGTPNsSocket .cxx_destruct]
+_OBJC_IVAR_$_XGTPNsSocket._callback
+_OBJC_IVAR_$_XGTPNsSocket._tpnsType
+_OBJC_IVAR_$_XGTPNsSocket._isPushKit
+_OBJC_IVAR_$_XGTPNsSocket._requestID
+l_OBJC_PROTOCOL_$_XGMQTTSessionManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_XGMQTTSessionManagerDelegate
++[XGDeviceManager defaultManager]
+___33+[XGDeviceManager defaultManager]_block_invoke
+-[XGDeviceManager init]
+-[XGDeviceManager copy]
++[XGDeviceManager allocWithZone:]
+-[XGDeviceManager setXgAccessID:]
+-[XGDeviceManager xgAccessID]
+-[XGDeviceManager setRouterServerType:]
+-[XGDeviceManager routerServerVersion]
+-[XGDeviceManager setVipStatus:]
+-[XGDeviceManager vipStatus]
+-[XGDeviceManager setIPRouterContent:]
+-[XGDeviceManager IPRouterContent]
+-[XGDeviceManager setIPRouterQueryFrequency:]
+-[XGDeviceManager IPRouterQueryFrequency]
+-[XGDeviceManager setIPRouterQueryInterval:]
+-[XGDeviceManager IPRouterQueryInterval]
+-[XGDeviceManager setIPRouterQueryDate:]
+-[XGDeviceManager IPRouterQueryDate]
+-[XGDeviceManager storeRegisterModel:]
+-[XGDeviceManager updateDeviceNotificationStatus:completionHandler:]
+-[XGDeviceManager loadDeivceNotificationStatus]
+-[XGDeviceManager loadRegisterModel]
+-[XGDeviceManager storeRegisterStatus:]
+-[XGDeviceManager loadRegisterStatus:]
+-[XGDeviceManager deviceToken]
+-[XGDeviceManager setDeviceToken:]
+___34-[XGDeviceManager setDeviceToken:]_block_invoke
+___copy_helper_block_.157
+___destroy_helper_block_.158
+-[XGDeviceManager setXgToken:]
+-[XGDeviceManager xgToken]
+-[XGDeviceManager setEmqUserInfo:]
+-[XGDeviceManager emqUserInfo]
+-[XGDeviceManager ifDeviceTokenRegistered]
+-[XGDeviceManager saveDeviceTokenRegistered]
+-[XGDeviceManager getDeviceTokenRetryNum]
+-[XGDeviceManager saveDeviceTokenRetryNum:]
+-[XGDeviceManager getSavedClientId]
+-[XGDeviceManager saveClientId:]
+-[XGDeviceManager setTokenAccount:]
+-[XGDeviceManager tokenAccount]
+-[XGDeviceManager removeTokenAccount:]
+-[XGDeviceManager saveTagsOfToken:]
+-[XGDeviceManager tagsOfToken]
+-[XGDeviceManager setTokenTag:]
+-[XGDeviceManager tokenTag]
+-[XGDeviceManager removeTokenTag:]
+-[XGDeviceManager setDeviceNotificationStatus:]
+-[XGDeviceManager deviceNotificationStatus]
+-[XGDeviceManager setDeviceGUID:]
+-[XGDeviceManager deviceGUID]
+-[XGDeviceManager saveApplicationNotificationStatus]
+___52-[XGDeviceManager saveApplicationNotificationStatus]_block_invoke
+___copy_helper_block_.215
+___destroy_helper_block_.216
+-[XGDeviceManager applicationNotificationStatus]
+-[XGDeviceManager loadVIPRouterInfo:]
+___37-[XGDeviceManager loadVIPRouterInfo:]_block_invoke
+___copy_helper_block_.256
+___destroy_helper_block_.257
+-[XGDeviceManager synchronizeData]
+-[XGDeviceManager setRouterServerVersion:]
+-[XGDeviceManager routerServerType]
+-[XGDeviceManager currentTag]
+-[XGDeviceManager setCurrentTag:]
+-[XGDeviceManager tpns]
+-[XGDeviceManager setTpns:]
+-[XGDeviceManager vipRouterInfo]
+-[XGDeviceManager setVipRouterInfo:]
+-[XGDeviceManager .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_XGCacheFile
+_deviceManager
+_defaultManager.onceToken
+___block_descriptor_tmp.259
+_OBJC_IVAR_$_XGDeviceManager._routerServerVersion
+_OBJC_IVAR_$_XGDeviceManager._routerServerType
+_OBJC_IVAR_$_XGDeviceManager._currentTag
+_OBJC_IVAR_$_XGDeviceManager._tpns
+_OBJC_IVAR_$_XGDeviceManager._vipRouterInfo
++[XGMQTTLog setLogLevel:]
++[UIApplication(XGPushHookSetDelegate) load]
+-[UIApplication(XGPushHookSetDelegate) __xgpush_messaging_setDelegate:]
+___71-[UIApplication(XGPushHookSetDelegate) __xgpush_messaging_setDelegate:]_block_invoke
+___xgpush_messaging_setDelegate:.onceToken
+l_OBJC_PROTOCOL_$_XGPushApplicationDelegateInjectionProtocol
+l_OBJC_LABEL_PROTOCOL_$_XGPushApplicationDelegateInjectionProtocol
+l_OBJC_PROTOCOL_REFERENCE_$_XGPushApplicationDelegateInjectionProtocol
+-[XGMQTTInMemoryFlow clientId]
+-[XGMQTTInMemoryFlow setClientId:]
+-[XGMQTTInMemoryFlow incomingFlag]
+-[XGMQTTInMemoryFlow setIncomingFlag:]
+-[XGMQTTInMemoryFlow retainedFlag]
+-[XGMQTTInMemoryFlow setRetainedFlag:]
+-[XGMQTTInMemoryFlow commandType]
+-[XGMQTTInMemoryFlow setCommandType:]
+-[XGMQTTInMemoryFlow qosLevel]
+-[XGMQTTInMemoryFlow setQosLevel:]
+-[XGMQTTInMemoryFlow messageId]
+-[XGMQTTInMemoryFlow setMessageId:]
+-[XGMQTTInMemoryFlow topic]
+-[XGMQTTInMemoryFlow setTopic:]
+-[XGMQTTInMemoryFlow data]
+-[XGMQTTInMemoryFlow setData:]
+-[XGMQTTInMemoryFlow deadline]
+-[XGMQTTInMemoryFlow setDeadline:]
+-[XGMQTTInMemoryFlow .cxx_destruct]
+-[XGMQTTInMemoryPersistence init]
+-[XGMQTTInMemoryPersistence windowSize:]
+-[XGMQTTInMemoryPersistence storeMessageForClientId:topic:data:retainFlag:qos:msgId:incomingFlag:commandType:deadline:]
+-[XGMQTTInMemoryPersistence deleteFlow:]
+-[XGMQTTInMemoryPersistence deleteAllFlowsForClientId:]
+-[XGMQTTInMemoryPersistence sync]
+-[XGMQTTInMemoryPersistence allFlowsforClientId:incomingFlag:]
+-[XGMQTTInMemoryPersistence flowforClientId:incomingFlag:messageId:]
+-[XGMQTTInMemoryPersistence createFlowforClientId:incomingFlag:messageId:]
+-[XGMQTTInMemoryPersistence maxSize]
+-[XGMQTTInMemoryPersistence setMaxSize:]
+-[XGMQTTInMemoryPersistence persistent]
+-[XGMQTTInMemoryPersistence setPersistent:]
+-[XGMQTTInMemoryPersistence maxMessages]
+-[XGMQTTInMemoryPersistence setMaxMessages:]
+-[XGMQTTInMemoryPersistence maxWindowSize]
+-[XGMQTTInMemoryPersistence setMaxWindowSize:]
+_OBJC_IVAR_$_XGMQTTInMemoryFlow.clientId
+_OBJC_IVAR_$_XGMQTTInMemoryFlow.incomingFlag
+_OBJC_IVAR_$_XGMQTTInMemoryFlow.retainedFlag
+_OBJC_IVAR_$_XGMQTTInMemoryFlow.commandType
+_OBJC_IVAR_$_XGMQTTInMemoryFlow.qosLevel
+_OBJC_IVAR_$_XGMQTTInMemoryFlow.messageId
+_OBJC_IVAR_$_XGMQTTInMemoryFlow.topic
+_OBJC_IVAR_$_XGMQTTInMemoryFlow.data
+_OBJC_IVAR_$_XGMQTTInMemoryFlow.deadline
+_clientIds
+_OBJC_IVAR_$_XGMQTTInMemoryPersistence.maxSize
+_OBJC_IVAR_$_XGMQTTInMemoryPersistence.persistent
+_OBJC_IVAR_$_XGMQTTInMemoryPersistence.maxMessages
+_OBJC_IVAR_$_XGMQTTInMemoryPersistence.maxWindowSize
+-[XGMQTTSession(Synchron) connectAndWaitTimeout:]
+-[XGMQTTSession(Synchron) connectAndWaitToHost:port:usingSSL:]
+-[XGMQTTSession(Synchron) connectAndWaitToHost:port:usingSSL:timeout:]
+-[XGMQTTSession(Synchron) subscribeAndWaitToTopic:atLevel:]
+-[XGMQTTSession(Synchron) subscribeAndWaitToTopic:atLevel:timeout:]
+-[XGMQTTSession(Synchron) subscribeAndWaitToTopics:]
+-[XGMQTTSession(Synchron) subscribeAndWaitToTopics:timeout:]
+-[XGMQTTSession(Synchron) unsubscribeAndWaitTopic:]
+-[XGMQTTSession(Synchron) unsubscribeAndWaitTopic:timeout:]
+-[XGMQTTSession(Synchron) unsubscribeAndWaitTopics:]
+-[XGMQTTSession(Synchron) unsubscribeAndWaitTopics:timeout:]
+-[XGMQTTSession(Synchron) publishAndWaitData:onTopic:retain:qos:]
+-[XGMQTTSession(Synchron) publishAndWaitData:onTopic:retain:qos:timeout:]
+-[XGMQTTSession(Synchron) closeAndWait]
+-[XGMQTTSession(Synchron) closeAndWait:]
+-[XGAccountModel account]
+-[XGAccountModel setAccount:]
+-[XGAccountModel .cxx_destruct]
+_OBJC_IVAR_$_XGAccountModel._account
+-[XGMQTTSSLSecurityPolicyDecoder init]
+-[XGMQTTSSLSecurityPolicyDecoder applySSLSecurityPolicy:withEvent:]
+-[XGMQTTSSLSecurityPolicyDecoder stream:handleEvent:]
+-[XGMQTTSSLSecurityPolicyDecoder securityPolicy]
+-[XGMQTTSSLSecurityPolicyDecoder setSecurityPolicy:]
+-[XGMQTTSSLSecurityPolicyDecoder securityDomain]
+-[XGMQTTSSLSecurityPolicyDecoder setSecurityDomain:]
+-[XGMQTTSSLSecurityPolicyDecoder securityPolicyApplied]
+-[XGMQTTSSLSecurityPolicyDecoder setSecurityPolicyApplied:]
+-[XGMQTTSSLSecurityPolicyDecoder .cxx_destruct]
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyDecoder._securityPolicy
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyDecoder._securityDomain
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyDecoder._securityPolicyApplied
++[XGHelper getInstance]
++[XGHelper isWiFiAvailable]
++[XGHelper getMacAddress]
++[XGHelper isProductionProvisioningProfile]
++[XGHelper mobileprovisionInfo]
+-[XGHelper getJson:]
+-[XGHelper json2Obj:]
+-[XGHelper deviceTypeName]
+-[XGHelper isSimulatorDevice]
+-[XGHelper getAppVersion]
++[XGHelper appName]
+-[XGHelper fetchSSIDInfo]
++[XGHelper networkType]
++[XGHelper deviceResolution]
+-[XGHelper md5:]
+-[XGHelper getCurrentTime]
+-[XGHelper timeToStr:]
+-[XGHelper strToTime:]
+-[XGHelper secondsBetweenTimes:endTime:]
+-[XGHelper getLanguage]
+-[XGHelper getCompanyDomain]
+-[XGHelper getDeviceToken:]
+-[XGHelper isIllegalAppKey:]
+-[XGHelper stringContainWhitespace:]
+-[XGHelper intersectArrayA:withArrayB:]
+-[XGHelper unionArrayA:withArrayB:]
++[XGHelper checkInternetConnection]
++[XGHelper randomArrayFromArray:]
+___33+[XGHelper randomArrayFromArray:]_block_invoke
++[XGHelper multipliyArray:byArray:]
+___35+[XGHelper multipliyArray:byArray:]_block_invoke
+___35+[XGHelper multipliyArray:byArray:]_block_invoke_2
++[XGHelper checkConditionForXGPush]
++[XGHelper commonConditionCheck]
+___32+[XGHelper commonConditionCheck]_block_invoke
+___copy_helper_block_.250
+___destroy_helper_block_.251
++[XGHelper replaceUnicode:]
+___block_descriptor_tmp.253
+-[XGTPNsTokenAccountSocket handleMessage:onTopic:retained:]
+___59-[XGTPNsTokenAccountSocket handleMessage:onTopic:retained:]_block_invoke
+___59-[XGTPNsTokenAccountSocket handleMessage:onTopic:retained:]_block_invoke_2
+-[XGTPNsTokenAccountSocket sessionManager:didReceiveMessage:onTopic:retained:]
+-[XGTPNsTokenAccountSocket messageDelivered:]
+-[XGTPNsTokenAccountSocket sessionManager:didDeliverMessage:]
+-[XGTPNsTokenAccountSocket sessionManager:didChangeState:]
+-[XGTPNsTokenAccountSocket account]
+-[XGTPNsTokenAccountSocket setAccount:]
+-[XGTPNsTokenAccountSocket flag]
+-[XGTPNsTokenAccountSocket setFlag:]
+-[XGTPNsTokenAccountSocket .cxx_destruct]
+-[XGTPNsTokenAccountEvent tpnsRequestParams]
+-[XGTPNsTokenAccountEvent initWithParameter:tpnsType:completionHandler:]
+-[XGTPNsTokenAccountEvent send]
+-[XGTPNsTokenAccountEvent observeValueForKeyPath:ofObject:change:context:]
+_OBJC_IVAR_$_XGTPNsTokenAccountSocket._account
+_OBJC_IVAR_$_XGTPNsTokenAccountSocket._flag
+-[XGMQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetainFlag:protocolLevel:runLoop:forMode:]
+-[XGMQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetainFlag:protocolLevel:runLoop:forMode:securityPolicy:]
+-[XGMQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetainFlag:protocolLevel:runLoop:forMode:securityPolicy:certificates:]
+-[XGMQTTSession(Legacy) initWithClientId:]
+-[XGMQTTSession(Legacy) initWithClientId:runLoop:forMode:]
+-[XGMQTTSession(Legacy) initWithClientId:userName:password:]
+-[XGMQTTSession(Legacy) initWithClientId:userName:password:runLoop:forMode:]
+-[XGMQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:]
+-[XGMQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:runLoop:forMode:]
+-[XGMQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:willTopic:willMsg:willQoS:willRetainFlag:]
+-[XGMQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:willTopic:willMsg:willQoS:willRetainFlag:runLoop:forMode:]
+-[XGMQTTSession(Legacy) initWithClientId:keepAlive:connectMessage:runLoop:forMode:]
+-[XGMQTTSession(Legacy) connectToHost:port:usingSSL:]
+-[XGMQTTSession(Legacy) connectToHost:port:usingSSL:connectHandler:]
+-[XGMQTTSession(Legacy) connectToHost:port:]
+-[XGMQTTSession(Legacy) connectToHost:port:withConnectionHandler:messageHandler:]
+-[XGMQTTSession(Legacy) connectToHost:port:usingSSL:withConnectionHandler:messageHandler:]
+-[XGMQTTSession(Legacy) subscribeTopic:]
+-[XGMQTTSession(Legacy) publishData:onTopic:]
+-[XGMQTTSession(Legacy) publishDataAtLeastOnce:onTopic:]
+-[XGMQTTSession(Legacy) publishDataAtLeastOnce:onTopic:retain:]
+-[XGMQTTSession(Legacy) publishDataAtMostOnce:onTopic:]
+-[XGMQTTSession(Legacy) publishDataAtMostOnce:onTopic:retain:]
+-[XGMQTTSession(Legacy) publishDataExactlyOnce:onTopic:]
+-[XGMQTTSession(Legacy) publishDataExactlyOnce:onTopic:retain:]
+-[XGMQTTSession(Legacy) publishJson:onTopic:]
+-[XGTPNsReportClickSocket handleMessage:onTopic:retained:]
+___58-[XGTPNsReportClickSocket handleMessage:onTopic:retained:]_block_invoke
+___58-[XGTPNsReportClickSocket handleMessage:onTopic:retained:]_block_invoke_2
+-[XGTPNsReportClickSocket sessionManager:didReceiveMessage:onTopic:retained:]
+-[XGTPNsReportClickSocket messageDelivered:]
+-[XGTPNsReportClickSocket sessionManager:didDeliverMessage:]
+-[XGTPNsReportClickSocket sessionManager:didChangeState:]
+-[XGTPNsReportClickSocket bid]
+-[XGTPNsReportClickSocket setBid:]
+-[XGTPNsReportClickSocket msgid]
+-[XGTPNsReportClickSocket setMsgid:]
+-[XGTPNsReportClickSocket ts]
+-[XGTPNsReportClickSocket setTs:]
+-[XGTPNsReportClickSocket type]
+-[XGTPNsReportClickSocket setType:]
+-[XGTPNsReportClickSocket groupID]
+-[XGTPNsReportClickSocket setGroupID:]
+-[XGTPNsReportClickSocket .cxx_destruct]
+-[XGTPNsReportClickEvent tpnsRequestParams]
+-[XGTPNsReportClickEvent tpnsReportRequestParams]
+-[XGTPNsReportClickEvent initWithParameter:tpnsType:completionHandler:]
+-[XGTPNsReportClickEvent send]
+___30-[XGTPNsReportClickEvent send]_block_invoke
+___copy_helper_block_.204
+___destroy_helper_block_.205
+-[XGTPNsReportClickEvent observeValueForKeyPath:ofObject:change:context:]
+_OBJC_IVAR_$_XGTPNsReportClickSocket._bid
+_OBJC_IVAR_$_XGTPNsReportClickSocket._msgid
+_OBJC_IVAR_$_XGTPNsReportClickSocket._ts
+_OBJC_IVAR_$_XGTPNsReportClickSocket._type
+_OBJC_IVAR_$_XGTPNsReportClickSocket._groupID
+_send.onceToken
+___block_descriptor_tmp.206
++[XGPushKitProxy shareInstance]
+___31+[XGPushKitProxy shareInstance]_block_invoke
+-[XGPushKitProxy registerPushKitInQueue:delegate:]
+-[XGPushKitProxy pushKitDelegate]
+-[XGPushKitProxy setPushKitDelegate:]
+-[XGPushKitProxy .cxx_destruct]
+_shareInstance.onceToken
+_shareInstance.proxy
+_OBJC_IVAR_$_XGPushKitProxy._pushKitDelegate
++[XGConfig getInstance]
+___23+[XGConfig getInstance]_block_invoke
+-[XGConfig init]
+-[XGConfig isStarted]
+-[XGConfig setDebugEnable:]
+-[XGConfig isDebugEnable]
+-[XGConfig getReportURL]
+-[XGConfig getReportPort]
++[XGConfig xgRouterServer]
++[XGConfig xgPushSDKVersion]
+-[XGConfig keyForKeyChain]
+-[XGConfig setKeyForKeyChain:]
+-[XGConfig connectToDebugServer]
+-[XGConfig setConnectToDebugServer:]
+-[XGConfig appkey]
+-[XGConfig setAppkey:]
+-[XGConfig appId]
+-[XGConfig setAppId:]
+-[XGConfig account]
+-[XGConfig setAccount:]
+-[XGConfig tokenTag]
+-[XGConfig setTokenTag:]
+-[XGConfig deviceTags]
+-[XGConfig deviceToken]
+-[XGConfig setDeviceToken:]
+-[XGConfig needRegister]
+-[XGConfig setNeedRegister:]
+-[XGConfig connectHost]
+-[XGConfig setConnectHost:]
+-[XGConfig connectPort]
+-[XGConfig setConnectPort:]
+-[XGConfig idfa]
+-[XGConfig setIdfa:]
+-[XGConfig registerFromMSDK]
+-[XGConfig setRegisterFromMSDK:]
+-[XGConfig tokenTags]
+-[XGConfig setTokenTags:]
+-[XGConfig currentTag]
+-[XGConfig setCurrentTag:]
+-[XGConfig traceOn]
+-[XGConfig setTraceOn:]
+-[XGConfig .cxx_destruct]
+_OBJC_IVAR_$_XGConfig._keyForKeyChain
+_OBJC_IVAR_$_XGConfig._connectToDebugServer
+_OBJC_IVAR_$_XGConfig._appkey
+_OBJC_IVAR_$_XGConfig._appId
+_OBJC_IVAR_$_XGConfig._account
+_OBJC_IVAR_$_XGConfig._tokenTag
+_OBJC_IVAR_$_XGConfig._deviceTags
+_OBJC_IVAR_$_XGConfig._deviceToken
+_OBJC_IVAR_$_XGConfig._needRegister
+_OBJC_IVAR_$_XGConfig._connectHost
+_OBJC_IVAR_$_XGConfig._connectPort
+_OBJC_IVAR_$_XGConfig._idfa
+_OBJC_IVAR_$_XGConfig._registerFromMSDK
+_OBJC_IVAR_$_XGConfig._tokenTags
+_OBJC_IVAR_$_XGConfig._currentTag
+_OBJC_IVAR_$_XGConfig._traceOn
++[XGMQTTSSLSecurityPolicy defaultPinnedCertificates]
+___52+[XGMQTTSSLSecurityPolicy defaultPinnedCertificates]_block_invoke
++[XGMQTTSSLSecurityPolicy defaultPolicy]
++[XGMQTTSSLSecurityPolicy policyWithPinningMode:]
+-[XGMQTTSSLSecurityPolicy init]
+-[XGMQTTSSLSecurityPolicy setPinnedCertificates:]
+-[XGMQTTSSLSecurityPolicy evaluateServerTrust:forDomain:]
++[XGMQTTSSLSecurityPolicy keyPathsForValuesAffectingPinnedPublicKeys]
+-[XGMQTTSSLSecurityPolicy SSLPinningMode]
+-[XGMQTTSSLSecurityPolicy setSSLPinningMode:]
+-[XGMQTTSSLSecurityPolicy validatesCertificateChain]
+-[XGMQTTSSLSecurityPolicy setValidatesCertificateChain:]
+-[XGMQTTSSLSecurityPolicy pinnedCertificates]
+-[XGMQTTSSLSecurityPolicy allowInvalidCertificates]
+-[XGMQTTSSLSecurityPolicy setAllowInvalidCertificates:]
+-[XGMQTTSSLSecurityPolicy validatesDomainName]
+-[XGMQTTSSLSecurityPolicy setValidatesDomainName:]
+-[XGMQTTSSLSecurityPolicy pinnedPublicKeys]
+-[XGMQTTSSLSecurityPolicy setPinnedPublicKeys:]
+-[XGMQTTSSLSecurityPolicy .cxx_destruct]
+_defaultPinnedCertificates._defaultPinnedCertificates
+_defaultPinnedCertificates.onceToken
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicy._pinnedCertificates
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicy._SSLPinningMode
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicy._validatesCertificateChain
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicy._allowInvalidCertificates
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicy._validatesDomainName
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicy._pinnedPublicKeys
+-[XGMQTTCFSocketEncoder init]
+-[XGMQTTCFSocketEncoder dealloc]
+-[XGMQTTCFSocketEncoder open]
+-[XGMQTTCFSocketEncoder close]
+-[XGMQTTCFSocketEncoder setState:]
+-[XGMQTTCFSocketEncoder stream:handleEvent:]
+-[XGMQTTCFSocketEncoder send:]
+-[XGMQTTCFSocketEncoder state]
+-[XGMQTTCFSocketEncoder error]
+-[XGMQTTCFSocketEncoder setError:]
+-[XGMQTTCFSocketEncoder stream]
+-[XGMQTTCFSocketEncoder setStream:]
+-[XGMQTTCFSocketEncoder runLoop]
+-[XGMQTTCFSocketEncoder setRunLoop:]
+-[XGMQTTCFSocketEncoder runLoopMode]
+-[XGMQTTCFSocketEncoder setRunLoopMode:]
+-[XGMQTTCFSocketEncoder delegate]
+-[XGMQTTCFSocketEncoder setDelegate:]
+-[XGMQTTCFSocketEncoder buffer]
+-[XGMQTTCFSocketEncoder setBuffer:]
+-[XGMQTTCFSocketEncoder .cxx_destruct]
+_OBJC_IVAR_$_XGMQTTCFSocketEncoder._state
+_OBJC_IVAR_$_XGMQTTCFSocketEncoder._error
+_OBJC_IVAR_$_XGMQTTCFSocketEncoder._stream
+_OBJC_IVAR_$_XGMQTTCFSocketEncoder._runLoop
+_OBJC_IVAR_$_XGMQTTCFSocketEncoder._runLoopMode
+_OBJC_IVAR_$_XGMQTTCFSocketEncoder._delegate
+_OBJC_IVAR_$_XGMQTTCFSocketEncoder._buffer
+-[XGMQTTSSLSecurityPolicyEncoder init]
+-[XGMQTTSSLSecurityPolicyEncoder applySSLSecurityPolicy:withEvent:]
+-[XGMQTTSSLSecurityPolicyEncoder stream:handleEvent:]
+-[XGMQTTSSLSecurityPolicyEncoder securityPolicy]
+-[XGMQTTSSLSecurityPolicyEncoder setSecurityPolicy:]
+-[XGMQTTSSLSecurityPolicyEncoder securityDomain]
+-[XGMQTTSSLSecurityPolicyEncoder setSecurityDomain:]
+-[XGMQTTSSLSecurityPolicyEncoder securityPolicyApplied]
+-[XGMQTTSSLSecurityPolicyEncoder setSecurityPolicyApplied:]
+-[XGMQTTSSLSecurityPolicyEncoder .cxx_destruct]
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyEncoder._securityPolicy
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyEncoder._securityDomain
+_OBJC_IVAR_$_XGMQTTSSLSecurityPolicyEncoder._securityPolicyApplied
+-[XGTPNsRegisterSocket handleMessage:onTopic:retained:]
+___55-[XGTPNsRegisterSocket handleMessage:onTopic:retained:]_block_invoke
+___55-[XGTPNsRegisterSocket handleMessage:onTopic:retained:]_block_invoke_2
+-[XGTPNsRegisterSocket sessionManager:didReceiveMessage:onTopic:retained:]
+-[XGTPNsRegisterSocket messageDelivered:]
+-[XGTPNsRegisterSocket sessionManager:didDeliverMessage:]
+-[XGTPNsRegisterSocket sessionManager:didChangeState:]
+-[XGTPNsRegisterEvent tpnsRequestParams]
+-[XGTPNsRegisterEvent send]
+-[XGTPNsRegisterEvent observeValueForKeyPath:ofObject:change:context:]
+___block_descriptor_tmp.57
++[XGReachability reachabilityWithHostName:]
++[XGReachability reachabilityWithAddress:]
++[XGReachability reachabilityForInternetConnection]
+-[XGReachability startNotifier]
+-[XGReachability stopNotifier]
+-[XGReachability dealloc]
+-[XGReachability networkStatusForFlags:]
+-[XGReachability connectionRequired]
+-[XGReachability currentReachabilityStatus]
+_OBJC_IVAR_$_XGReachability._reachabilityRef
++[XGNotificationAction actionWithIdentifier:title:options:]
+-[XGNotificationAction init]
+-[XGNotificationAction identifier]
+-[XGNotificationAction title]
+-[XGNotificationAction options]
++[XGNotificationCategory categoryWithIdentifier:actions:intentIdentifiers:options:]
+-[XGNotificationCategory init]
+-[XGNotificationCategory identifier]
+-[XGNotificationCategory actions]
+-[XGNotificationCategory intentIdentifiers]
+-[XGNotificationCategory options]
++[XGNotificationConfigure defaultConfigure]
+___43+[XGNotificationConfigure defaultConfigure]_block_invoke
++[XGNotificationConfigure configureNotificationWithCategories:types:]
+-[XGNotificationConfigure init]
+-[XGNotificationConfigure categories]
+-[XGNotificationConfigure types]
+-[XGNotificationConfigure defaultTypes]
+-[XGNotificationConfigure configureCategories]
+-[XGNotificationConfigure setConfigureCategories:]
+-[XGNotificationConfigure configureTypes]
+-[XGNotificationConfigure setConfigureTypes:]
+-[XGNotificationConfigure .cxx_destruct]
++[XGPushTokenManager defaultTokenManager]
+___41+[XGPushTokenManager defaultTokenManager]_block_invoke
+-[XGPushTokenManager init]
++[XGPushTokenManager allocWithZone:]
+-[XGPushTokenManager copy]
+-[XGPushTokenManager registerDeviceToken:]
+___42-[XGPushTokenManager registerDeviceToken:]_block_invoke
+___42-[XGPushTokenManager registerDeviceToken:]_block_invoke_2
+___42-[XGPushTokenManager registerDeviceToken:]_block_invoke.128
+___copy_helper_block_.135
+___destroy_helper_block_.136
+___copy_helper_block_.147
+___destroy_helper_block_.148
+-[XGPushTokenManager registerPushKitDeviceToken:]
+___49-[XGPushTokenManager registerPushKitDeviceToken:]_block_invoke
+___49-[XGPushTokenManager registerPushKitDeviceToken:]_block_invoke_2
+___copy_helper_block_.163
+___destroy_helper_block_.164
+___copy_helper_block_.166
+___destroy_helper_block_.167
+-[XGPushTokenManager deviceTokenString]
+-[XGPushTokenManager xgTokenString]
+-[XGPushTokenManager bindWithIdentifier:type:]
+-[XGPushTokenManager unbindWithIdentifer:type:]
+-[XGPushTokenManager bindDefualtCaseWithIdentifier:withType:isBind:]
+-[XGPushTokenManager registerTokenToServer:]
+___44-[XGPushTokenManager registerTokenToServer:]_block_invoke
+___44-[XGPushTokenManager registerTokenToServer:]_block_invoke_2
+___44-[XGPushTokenManager registerTokenToServer:]_block_invoke.235
+___44-[XGPushTokenManager registerTokenToServer:]_block_invoke_2.247
+___copy_helper_block_.253
+___destroy_helper_block_.254
+-[XGPushTokenManager registerPushKitTokenToServer:]
+___51-[XGPushTokenManager registerPushKitTokenToServer:]_block_invoke
+___51-[XGPushTokenManager registerPushKitTokenToServer:]_block_invoke_2
+___copy_helper_block_.260
+___destroy_helper_block_.261
+___copy_helper_block_.263
+___destroy_helper_block_.264
+___51-[XGPushTokenManager registerPushKitTokenToServer:]_block_invoke.266
+___51-[XGPushTokenManager registerPushKitTokenToServer:]_block_invoke_2.273
+___copy_helper_block_.274
+___destroy_helper_block_.275
+___copy_helper_block_.277
+___destroy_helper_block_.278
+-[XGPushTokenManager bindAccountWithIdentifier:isBind:]
+___55-[XGPushTokenManager bindAccountWithIdentifier:isBind:]_block_invoke
+___55-[XGPushTokenManager bindAccountWithIdentifier:isBind:]_block_invoke_2
+___copy_helper_block_.283
+___destroy_helper_block_.284
+___55-[XGPushTokenManager bindAccountWithIdentifier:isBind:]_block_invoke.288
+___copy_helper_block_.289
+___destroy_helper_block_.290
+___copy_helper_block_.294
+___destroy_helper_block_.295
+-[XGPushTokenManager bindTagWithIdentifier:isBind:]
+___51-[XGPushTokenManager bindTagWithIdentifier:isBind:]_block_invoke
+___51-[XGPushTokenManager bindTagWithIdentifier:isBind:]_block_invoke_2
+___51-[XGPushTokenManager bindTagWithIdentifier:isBind:]_block_invoke.305
+___copy_helper_block_.306
+___destroy_helper_block_.307
+-[XGPushTokenManager bindErrorWithIdentifier:isBind:isSystemError:type:code:]
+___77-[XGPushTokenManager bindErrorWithIdentifier:isBind:isSystemError:type:code:]_block_invoke
+___copy_helper_block_.320
+___destroy_helper_block_.321
+___77-[XGPushTokenManager bindErrorWithIdentifier:isBind:isSystemError:type:code:]_block_invoke.323
+-[XGPushTokenManager identifiersWithType:]
+-[XGPushTokenManager bindWithIdentifiers:type:]
+___47-[XGPushTokenManager bindWithIdentifiers:type:]_block_invoke
+___copy_helper_block_.350
+___destroy_helper_block_.351
+___47-[XGPushTokenManager bindWithIdentifiers:type:]_block_invoke.360
+___47-[XGPushTokenManager bindWithIdentifiers:type:]_block_invoke_2
+___copy_helper_block_.369
+___destroy_helper_block_.370
+___copy_helper_block_.372
+___destroy_helper_block_.373
+___47-[XGPushTokenManager bindWithIdentifiers:type:]_block_invoke.380
+___47-[XGPushTokenManager bindWithIdentifiers:type:]_block_invoke_2.385
+___copy_helper_block_.386
+___destroy_helper_block_.387
+___copy_helper_block_.389
+___destroy_helper_block_.390
+-[XGPushTokenManager unbindWithIdentifers:type:]
+___48-[XGPushTokenManager unbindWithIdentifers:type:]_block_invoke
+___copy_helper_block_.396
+___destroy_helper_block_.397
+___48-[XGPushTokenManager unbindWithIdentifers:type:]_block_invoke.399
+___48-[XGPushTokenManager unbindWithIdentifers:type:]_block_invoke_2
+___copy_helper_block_.406
+___destroy_helper_block_.407
+___copy_helper_block_.409
+___destroy_helper_block_.410
+___48-[XGPushTokenManager unbindWithIdentifers:type:]_block_invoke.412
+___48-[XGPushTokenManager unbindWithIdentifers:type:]_block_invoke_2.419
+___copy_helper_block_.430
+___destroy_helper_block_.431
+___48-[XGPushTokenManager unbindWithIdentifers:type:]_block_invoke.440
+___copy_helper_block_.441
+___destroy_helper_block_.442
+___copy_helper_block_.444
+___destroy_helper_block_.445
+-[XGPushTokenManager updateBindedIdentifiers:bindType:]
+___55-[XGPushTokenManager updateBindedIdentifiers:bindType:]_block_invoke
+___copy_helper_block_.447
+___destroy_helper_block_.448
+___55-[XGPushTokenManager updateBindedIdentifiers:bindType:]_block_invoke.450
+___55-[XGPushTokenManager updateBindedIdentifiers:bindType:]_block_invoke_2
+___copy_helper_block_.455
+___destroy_helper_block_.456
+___copy_helper_block_.458
+___destroy_helper_block_.459
+___55-[XGPushTokenManager updateBindedIdentifiers:bindType:]_block_invoke.461
+___55-[XGPushTokenManager updateBindedIdentifiers:bindType:]_block_invoke_2.466
+___copy_helper_block_.467
+___destroy_helper_block_.468
+___copy_helper_block_.470
+___destroy_helper_block_.471
+-[XGPushTokenManager clearAllIdentifiers:]
+___42-[XGPushTokenManager clearAllIdentifiers:]_block_invoke
+___42-[XGPushTokenManager clearAllIdentifiers:]_block_invoke_2
+___copy_helper_block_.479
+___destroy_helper_block_.480
+___copy_helper_block_.482
+___destroy_helper_block_.483
+___42-[XGPushTokenManager clearAllIdentifiers:]_block_invoke.485
+___42-[XGPushTokenManager clearAllIdentifiers:]_block_invoke_2.490
+___copy_helper_block_.491
+___destroy_helper_block_.492
+___copy_helper_block_.494
+___destroy_helper_block_.495
+-[XGPushTokenManager checkIdentifier:type:isBind:]
+-[XGPushTokenManager commonConditionCheck]
+___42-[XGPushTokenManager commonConditionCheck]_block_invoke
+___copy_helper_block_.509
+___destroy_helper_block_.510
+-[XGPushTokenManager delegate]
+-[XGPushTokenManager setDelegate:]
+-[XGPushTokenManager tokenData]
+-[XGPushTokenManager setTokenData:]
+-[XGPushTokenManager tpnsEventList]
+-[XGPushTokenManager setTpnsEventList:]
+-[XGPushTokenManager .cxx_destruct]
++[XGPush defaultManager]
+___24+[XGPush defaultManager]_block_invoke
+___copy_helper_block_.556
+___destroy_helper_block_.557
++[XGPush allocWithZone:]
+-[XGPush copy]
+-[XGPush mutableCopy]
+-[XGPush setEnableDebug:]
+-[XGPush isEnableDebug]
+-[XGPush xgNotificationStatus]
+-[XGPush deviceDidRegisteredXG]
+-[XGPush setXgApplicationBadgeNumber:]
+-[XGPush xgApplicationBadgeNumber]
+-[XGPush delegate]
+-[XGPush startXGWithAppID:appKey:delegate:]
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke_2
+___copy_helper_block_.635
+___destroy_helper_block_.636
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke.660
+___copy_helper_block_.665
+___destroy_helper_block_.666
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke.668
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke_2.669
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke_3
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke_4
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke_5
+___copy_helper_block_.676
+___destroy_helper_block_.677
+___copy_helper_block_.683
+___destroy_helper_block_.684
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke.690
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke_2.693
+___43-[XGPush startXGWithAppID:appKey:delegate:]_block_invoke_3.694
+-[XGPush stopXGNotification]
+___28-[XGPush stopXGNotification]_block_invoke
+___copy_helper_block_.699
+___destroy_helper_block_.700
+___28-[XGPush stopXGNotification]_block_invoke.705
+___28-[XGPush stopXGNotification]_block_invoke_2
+___copy_helper_block_.712
+___destroy_helper_block_.713
+___copy_helper_block_.715
+___destroy_helper_block_.716
+___28-[XGPush stopXGNotification]_block_invoke.718
+___copy_helper_block_.719
+___destroy_helper_block_.720
+-[XGPush setBadge:]
+___19-[XGPush setBadge:]_block_invoke
+___19-[XGPush setBadge:]_block_invoke_2
+___copy_helper_block_.729
+___destroy_helper_block_.730
+___copy_helper_block_.732
+___destroy_helper_block_.733
+-[XGPush reportXGNotificationResponse:]
+-[XGPush deviceNotificationIsAllowed:]
+___38-[XGPush deviceNotificationIsAllowed:]_block_invoke
+___copy_helper_block_.763
+___destroy_helper_block_.764
+-[XGPush reportXGNotificationInfo:]
+___35-[XGPush reportXGNotificationInfo:]_block_invoke
+___35-[XGPush reportXGNotificationInfo:]_block_invoke_2
+___copy_helper_block_.786
+___destroy_helper_block_.787
+___copy_helper_block_.789
+___destroy_helper_block_.790
+___35-[XGPush reportXGNotificationInfo:]_block_invoke.792
+___35-[XGPush reportXGNotificationInfo:]_block_invoke_2.793
+___copy_helper_block_.794
+___destroy_helper_block_.795
+___copy_helper_block_.797
+___destroy_helper_block_.798
+-[XGPush registerAPNs:]
+-[XGPush registerNotificationForiOS10Later:]
+___44-[XGPush registerNotificationForiOS10Later:]_block_invoke
+___44-[XGPush registerNotificationForiOS10Later:]_block_invoke_2
+___copy_helper_block_.825
+___destroy_helper_block_.826
+___copy_helper_block_.828
+___destroy_helper_block_.829
+-[XGPush registerNotificationForiOS8To9:]
+-[XGPush registerNotificationForiOS8Earlier:]
+-[XGPush checkConditionForXGPush]
+-[XGPush userNotificationCenter:willPresentNotification:withCompletionHandler:]
+-[XGPush userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]
+-[XGPush application:didRegisterForRemoteNotificationsWithDeviceToken:]
+-[XGPush application:didFailToRegisterForRemoteNotificationsWithError:]
+-[XGPush application:didReceiveRemoteNotification:]
+-[XGPush application:didReceiveRemoteNotification:fetchCompletionHandler:]
+-[XGPush application:didFinishLaunchingWithOptions:]
+-[XGPush pushRegistry:didUpdatePushCredentials:forType:]
+-[XGPush pushRegistry:didReceiveIncomingPushWithPayload:forType:]
+-[XGPush pushRegistry:didReceiveIncomingPushWithPayload:forType:withCompletionHandler:]
+-[XGPush pushRegistry:didInvalidatePushTokenForType:]
+-[XGPush sdkVersion]
+-[XGPush configureHost:port:]
+-[XGPush notificationConfigure]
+-[XGPush setNotificationConfigure:]
+-[XGPush tpnsEventList]
+-[XGPush setTpnsEventList:]
+-[XGPush xgPushDelegate]
+-[XGPush setXgPushDelegate:]
+-[XGPush .cxx_destruct]
+_actionIdentifier
+_actionTitle
+_actionOptions
+_categoryIdentifier
+_categoryActions
+_categoryIntentIdentifiers
+_categoryOptions
+_configureSetting
+_defaultConfigure.t
+_OBJC_IVAR_$_XGNotificationConfigure._configureCategories
+_OBJC_IVAR_$_XGNotificationConfigure._configureTypes
+_pushTokenManager
+_defaultTokenManager.t
+___block_descriptor_tmp.97
+_pushTokenManager_block_invoke.retryTimes
+___block_descriptor_tmp.138
+___block_descriptor_tmp.150
+_pushTokenManager_block_invoke_2.retryTimes
+___block_descriptor_tmp.165
+___block_descriptor_tmp.168
+___block_descriptor_tmp.217
+_registerTokenToServer:.currentHostIndex
+___block_descriptor_tmp.255
+___block_descriptor_tmp.262
+___block_descriptor_tmp.265
+_registerPushKitTokenToServer:.currentHostIndex
+___block_descriptor_tmp.276
+___block_descriptor_tmp.279
+___block_descriptor_tmp.285
+___block_descriptor_tmp.291
+___block_descriptor_tmp.296
+___block_descriptor_tmp.308
+___block_descriptor_tmp.322
+___block_descriptor_tmp.353
+___block_descriptor_tmp.371
+___block_descriptor_tmp.374
+___block_descriptor_tmp.388
+___block_descriptor_tmp.391
+___block_descriptor_tmp.398
+___block_descriptor_tmp.408
+___block_descriptor_tmp.411
+___block_descriptor_tmp.433
+___block_descriptor_tmp.443
+___block_descriptor_tmp.446
+___block_descriptor_tmp.449
+___block_descriptor_tmp.457
+___block_descriptor_tmp.460
+___block_descriptor_tmp.469
+___block_descriptor_tmp.472
+___block_descriptor_tmp.481
+___block_descriptor_tmp.484
+___block_descriptor_tmp.493
+___block_descriptor_tmp.496
+___block_descriptor_tmp.512
+_OBJC_IVAR_$_XGPushTokenManager._delegate
+_OBJC_IVAR_$_XGPushTokenManager._tokenData
+_OBJC_IVAR_$_XGPushTokenManager._tpnsEventList
+_xgPushInstance
+_defaultManager.t
+___block_descriptor_tmp.559
+___block_descriptor_tmp.632
+___block_descriptor_tmp.638
+_startXGWithAppID:appKey:delegate:.currentRouterIndex
+___block_descriptor_tmp.667
+___block_descriptor_tmp.670
+___block_literal_global.671
+___block_descriptor_tmp.672
+___block_literal_global.673
+___block_descriptor_tmp.674
+___block_literal_global.675
+___block_descriptor_tmp.678
+___block_descriptor_tmp.685
+___block_descriptor_tmp.691
+___block_literal_global.692
+___block_descriptor_tmp.695
+___block_literal_global.696
+___block_descriptor_tmp.697
+___block_literal_global.698
+___block_descriptor_tmp.701
+___block_descriptor_tmp.714
+___block_descriptor_tmp.717
+___block_descriptor_tmp.721
+___block_descriptor_tmp.731
+___block_descriptor_tmp.734
+___block_descriptor_tmp.766
+___block_descriptor_tmp.788
+___block_descriptor_tmp.791
+___block_descriptor_tmp.796
+___block_descriptor_tmp.799
+___block_descriptor_tmp.827
+___block_descriptor_tmp.830
+_OBJC_IVAR_$_XGPush._notificationConfigure
+_OBJC_IVAR_$_XGPush._tpnsEventList
+_OBJC_IVAR_$_XGPush._xgPushDelegate
+l_OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate
+l_OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate
+l_OBJC_PROTOCOL_$_PKPushRegistryDelegate
+l_OBJC_LABEL_PROTOCOL_$_PKPushRegistryDelegate
++[XGTPNs load]
+-[XGTPNs initWithParameter:tpnsType:completionHandler:]
+-[XGTPNs connectToTPNs]
+-[XGTPNs send]
+-[XGTPNs tpnsRequestParams]
+-[XGTPNs hasPushKitPlugin]
+-[XGTPNs callback]
+-[XGTPNs setCallback:]
+-[XGTPNs socketDelegateObject]
+-[XGTPNs setSocketDelegateObject:]
+-[XGTPNs inputParams]
+-[XGTPNs setInputParams:]
+-[XGTPNs .cxx_destruct]
+_operationQueue
+_OBJC_IVAR_$_XGTPNs._callback
+_OBJC_IVAR_$_XGTPNs._socketDelegateObject
+_OBJC_IVAR_$_XGTPNs._inputParams
+l_OBJC_PROTOCOL_$_XGTPNsProtocol
+l_OBJC_LABEL_PROTOCOL_$_XGTPNsProtocol
+-[XGXPCProxy listener:shouldAcceptNewConnection:]
+l_OBJC_PROTOCOL_REFERENCE_$_XGXPCProtocol
+l_OBJC_PROTOCOL_$_NSXPCListenerDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
