@@ -774,7 +774,7 @@
 					"$(PROJECT_DIR)/sdk",
 					"$(PROJECT_DIR)/sdk/pushkit",
 				);
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = " -all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.teg.XGDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5b3bdba7-3360-4930-ac8e-29064294548a";
@@ -804,7 +804,7 @@
 					"$(PROJECT_DIR)/sdk",
 					"$(PROJECT_DIR)/sdk/pushkit",
 				);
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = " -all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.teg.XGDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5b3bdba7-3360-4930-ac8e-29064294548a";
@@ -1047,7 +1047,7 @@
 					"$(PROJECT_DIR)/sdk",
 					"$(PROJECT_DIR)/sdk/pushkit",
 				);
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = " -all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.teg.XGDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5b3bdba7-3360-4930-ac8e-29064294548a";
