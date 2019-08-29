@@ -1,6 +1,13 @@
 # TPNS-iOS
 腾讯移动推送 SDK(iOS) Carthage 托管
 
+VERSION 1.2.2.1
+-------------------------------------------
+* Fix a bug about network connecting when other apis are called before SDK starting
+
+版本 1.2.2.1
+-------------------------------------------
+* 修复一个当SDK未启动完成就调用其他接口而产生的网络连接的Bug
 VERSION 1.2.2.0
 -------------------------------------------
 * Fix a bug about registering device to the TPNS server on iOS13

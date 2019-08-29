@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.2.2.0",
+  "iOS" : [
+    {
+      "name" : "TPNS_iOS",
+      "hash" : "8e62afc1ec29836221065809e32d38f759c74530a0cf1a822565982a08005bc4"
+    }
+  ]
+}

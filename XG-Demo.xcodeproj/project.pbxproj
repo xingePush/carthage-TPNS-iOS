@@ -42,9 +42,9 @@
 		841F69B72315172A0065A603 /* libXGPushKitPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F69AE231517290065A603 /* libXGPushKitPlugin.a */; };
 		841F69B82315172A0065A603 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 841F69AF231517290065A603 /* ReleaseNotes.txt */; };
 		841F69B92315172A0065A603 /* XGMTACloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F69B3231517290065A603 /* XGMTACloud.framework */; };
-		841F69BA231518660065A603 /* libXG-SDK-Cloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F69AC231517290065A603 /* libXG-SDK-Cloud.a */; };
-		841F69BB231518780065A603 /* XGMTACloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F69B3231517290065A603 /* XGMTACloud.framework */; };
-		841F69BC231518830065A603 /* XGPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F69B0231517290065A603 /* XGPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841F69C12317CB9D0065A603 /* libXG-SDK-Cloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F69AC231517290065A603 /* libXG-SDK-Cloud.a */; };
+		841F69C22317CBAD0065A603 /* XGMTACloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F69B3231517290065A603 /* XGMTACloud.framework */; };
+		841F69C32317CBBB0065A603 /* XGPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F69B0231517290065A603 /* XGPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C204A129213E6D710099EC7F /* libXG-SDK-Cloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C204A128213E6D710099EC7F /* libXG-SDK-Cloud.a */; };
 		C216B5ED2227D834001D648A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C216B5EC2227D834001D648A /* CoreData.framework */; };
 		C24A70FF1F3AB710007F2360 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C24A70FE1F3AB710007F2360 /* NotificationService.m */; };
@@ -195,8 +195,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841F69BB231518780065A603 /* XGMTACloud.framework in Frameworks */,
-				841F69BA231518660065A603 /* libXG-SDK-Cloud.a in Frameworks */,
+				841F69C22317CBAD0065A603 /* XGMTACloud.framework in Frameworks */,
+				841F69C12317CB9D0065A603 /* libXG-SDK-Cloud.a in Frameworks */,
 				841F68DD2306567B0065A603 /* UserNotifications.framework in Frameworks */,
 				841F68DC2306566D0065A603 /* CoreData.framework in Frameworks */,
 			);
@@ -397,7 +397,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841F69BC231518830065A603 /* XGPush.h in Headers */,
+				841F69C32317CBBB0065A603 /* XGPush.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
