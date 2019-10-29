@@ -1,0 +1,6 @@
+framework module TPNS_iOS {
+  umbrella header "TPNS_iOS.h"
+
+  export *
+  module * { export * }
+}
