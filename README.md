@@ -1,5 +1,6 @@
 # TPNS-iOS
 腾讯移动推送 SDK(iOS) Carthage 托管
+
 VERSION 1.2.4.0
 -------------------------------------------
 * Fix the problem of single account binding callback
